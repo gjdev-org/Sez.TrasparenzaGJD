@@ -26,3 +26,275 @@
 <script type="text/javascript" src="https://bibliogabby.altervista.org/wp-content/plugins/mooberry-book-manager/js/single-book.js?ver=241215-155119" id="single-book-js"></script>
 <script type="text/javascript" src="https://bibliogabby.altervista.org/wp-content/themes/italiawp2/static/js/modernizr.js?ver=6.7.1" id="modernizr-js"></script>
 <script type="text/javascript" src="https://bibliogabby.altervista.org/wp-content/themes/italiawp2/static/js/leaflet.js?ver=6.7.1" id="leaflet-js"></script>
+<style>.u-color-black{color:#000 !important}
+.u-background-black{background-color:#000 !important}
+.u-color-white,.Bullets>li:before,.Footer,.Footer-blockTitle,.Footer-subTitle,.Form-input.Form-input:focus+[role=tooltip],.Linklist-link.Linklist-link--lev1,.Linklist-link.Linklist-link--lev1:hover,.Megamenu--default .Megamenu-item>a,.ScrollTop,.ScrollTop-icon,.Share-reveal>a>span,.Share-revealIcon,.Share>ul>li,.Share>ul>li>a,.Spid-button,.Footer-block li,.Footer-subBlock,#footer .wp-calendar-table,#footer .wp-block-calendar table tbody{color:#fff !important}
+.u-background-white,.Megamenu--default .Megamenu-subnav,.Skiplinks>li>a,.Spid-menu{background-color:#fff !important}
+.u-color-grey-10,.Footer-block address{color:#f5f5f0 !important}
+.u-background-grey-10,.Spid-idp:hover{background-color:#f5f5f0 !important}
+.u-color-grey-15{color:#f6f9fc !important}
+.u-background-grey-15{background-color:#f6f9fc !important}
+.u-color-grey-20{color:#eee !important}
+.u-background-grey-20,.Hero-content,.Share-reveal,.Share-revealIcon.is-open,.Treeview--default li[aria-expanded=true] li a,.Treeview--default li[aria-expanded=true] li a:hover,#menu-sinistro .menu-separatore{background-color:#eee !important}
+.u-color-grey-30,.Accordion--default .Accordion-header,.Accordion--plus .Accordion-header,.Linklist,.Linklist li,.Timeline{color:#ddd !important}
+.u-background-grey-30,.Treeview--default li[aria-expanded=true] li li a,.Treeview--default li[aria-expanded=true] li li a:hover{background-color:#ddd !important}
+.Accordion--default .Accordion-header,.Accordion--plus .Accordion-header,.Footer-block li,.Footer-links,.Footer-subBlock,.Leads-link,.Linklist li,.u-border-top-xxs{border-color:#ddd !important}
+.u-color-grey-40,.Megamenu--default .Megamenu-subnavGroup{color:#a5abb0 !important}
+.u-background-grey-40{background-color:#a5abb0 !important}
+.u-color-grey-50,.Megamenu--default .Megamenu-subnavGroup>li,.Share-revealText{color:#5a6772 !important}
+.u-background-grey-50{background-color:#5a6772 !important}
+.u-color-grey-60{color:#444e57 !important}
+.u-background-grey-60,#articolo-dettaglio-testo .galleriasfondo{background-color:#444e57 !important}
+.u-color-grey-80,.Megamenu--default .Megamenu-subnavGroup>li>ul>li>ul>li>a,.Megamenu--default .Megamenu-subnavGroup>li>ul>li a,#menu-sinistro h4.dropdown,#briciole .breadcrumb .breadcrumb-item.active,label{color:#30373d !important}
+.u-background-grey-80,.Form-input.Form-input:focus+[role=tooltip],.Header-banner{background-color:#30373d !important}
+.u-color-grey-90{color:#1c2024 !important}
+.u-background-grey-90{background-color:#1c2024 !important}
+.u-color-teal-30{color:#00c5ca !important}
+.u-background-teal-30{background-color:#00c5ca !important}
+.u-color-teal-50{color:#65dcdf !important}
+.u-background-teal-50{background-color:#65dcdf !important}
+.u-color-teal-70{color:#004a4d !important}
+.u-background-teal-70{background-color:#004a4d !important}
+.u-color-5{color:#FFFFFF !important}
+.u-background-5,.Accordion--default .Accordion-header:hover,.Accordion--plus .Accordion-header:hover,.Linklist a:hover{background-color:#FFFFFF !important}
+.u-color-10,#footer,#footer .postFooter,#footer label,#footer caption,#footer .wp-calendar-table th,#footer .wp-block-calendar th,table#wp-calendar a,.wp-block-calendar a{color:#FFFFFF !important}
+#footer .footer-list .icon{fill:#FFFFFF}
+.u-background-10,.Linklist-link.Linklist-link--lev3{background-color:#FFFFFF !important}
+#footer h4,#footer .postFooter{border-color:#FFFFFF !important}
+.u-background-20,.Linklist-link.Linklist-link--lev2,.Linklist-link.Linklist-link--lev2:hover{background-color:#FFFFFF !important}
+.u-color-20{color:#FFFFFF !important}
+.u-color-30,.has-colore-primario-chiaro-color{color:#ECEBEB !important}
+.u-background-30,.has-colore-primario-chiaro-background-color{background-color:#ECEBEB !important}
+.u-color-40,.Header-owner{color:#D2CCC8 !important}
+.u-background-40,.Megamenu--default{background-color:#D2CCC8 !important}
+.u-color-50,.Accordion--default .Accordion-link,.Accordion--plus .Accordion-link,.ErrorPage-subtitle,.ErrorPage-title,.Header-language-other a,.Linklist-link,.Linklist a,.Share-revealIcon.is-open,.Skiplinks>li>a,.Header-socialIcons [class*=" Icon-"],.Header-socialIcons [class^=Icon-],.has-colore-primario-color,.tutte{color:#cab5a7 !important}
+.chip.chip-primary,.chip.chip-primary>.chip-label,.scheda-argomento-lista-testo a,.articolo-paragrafi a,#articolo-dettaglio-testo .scheda-allegato h4 a,#articolo-dettaglio-testo .scheda-ufficio-contatti h4 a,.card .card-body a h5.card-title{color:#cab5a7}
+.chip.chip-primary,.chip.chip-primary:hover{border-color:#cab5a7}
+.btn-primary,.btn-outline-primary{border-color:#cab5a7 !important}
+.btn-outline-primary{-webkit-box-shadow:inset 0 0 0 1px #cab5a7;box-shadow:inset 0 0 0 1px #cab5a7}
+.chip.chip-primary:hover{background-color:#cab5a7}
+.u-background-50,.Header-navbar,.Bullets>li:before,.Share-revealIcon,.Share>ul>li,.Header-searchTrigger button,.has-colore-primario-background-color,.flag-icon,.btn-primary{background-color:#cab5a7 !important}
+.tutte svg.icon,#articolo-dettaglio-testo .scheda-allegato svg.icon,.scheda-allegato svg.icon{fill:#cab5a7 !important}
+.u-color-60,.Header-banner{color:#C0A897 !important}
+.u-background-60{background-color:#C0A897 !important}
+.u-color-70{color:#B79A87 !important}
+.u-background-70,.push-body-toright .body_wrapper,.push-body-toright .body_wrapper .preheader{background-color:#B79A87 !important}
+.u-color-80,.Button--info{color:#AD8D77 !important}
+.u-background-80{background-color:#AD8D77 !important}
+input[type="date"],input[type="datetime-local"],input[type="email"],input[type="number"],input[type="password"],input[type="search"],input[type="tel"],input[type="text"],input[type="time"],input[type="url"],textarea{border-color:#AD8D77 !important}
+#mainheader .preheader .accedi{border-color:transparent}
+.u-color-90{color:#A47F67 !important}
+.dropdown-item{color:#A47F67}
+.u-background-90,.Linklist-link.Linklist-link--lev1,.Linklist-link.Linklist-link--lev1:hover,.btn-primary:hover{background-color:#A47F67 !important}
+.btn-primary:hover,.btn-outline-primary:hover{border-color:#A47F67 !important}
+.btn-outline-primary:hover{-webkit-box-shadow:inset 0 0 0 1px #A47F67;box-shadow:inset 0 0 0 1px #A47F67}
+.u-color-95,#intro .titolo-sezione h2,#intro-argomenti .titolo-sezione h2,#introricerca .titolo-sezione h2,#intro-sititematici .titolo-sezione h2,#briciole a,.Linklist-link.Linklist-link--lev2,.Linklist-link.Linklist-link--lev2:hover,.Linklist-link.Linklist-link--lev3,.Linklist a:hover,.Megamenu--default .Megamenu-subnavGroup>li>a,.Treeview--default li[aria-expanded=true] li a,.Treeview--default li[aria-expanded=true] li a:hover,.Treeview--default li[aria-expanded=true] li li a,.Treeview--default li[aria-expanded=true] li li a:hover,#wp-calendar a,.Footer-socialIcons [class*=Icon-],.Footer-socialIcons [class^=Icon-],.Button--default,.has-colore-primario-scuro-color,.scheda .scheda-testo h4 a,.scheda .scheda-testo h4 a:not([href]):not([tabindex]),.scheda .scheda-testo h4 a:not([href]):not([tabindex]):focus,.scheda .scheda-testo h4 a:not([href]):not([tabindex]):hover,.form-group input,.form-group optgroup,.form-group textarea{color:#97735B !important}
+.articolo-paragrafi a:hover,.novita-testo h2 a,.scheda .scheda-testo-small h4 a,.scheda .scheda-icona-small a,.cbp-spmenu .logotxt-burger a,.navmenu li a,.utilitymobile li a,.socialmobile .small,#mainheader .p_cercaMobile input[type=text],#menu-sinistro #lista-paragrafi .list-group-item,#menu-sinistro .lista-paragrafi .list-group-item,.dropdown-item:focus,.dropdown-item:hover,.navmenu>li.open ul li a,.navmenu>li.open ul li a:hover,.navmenu>li.open ul>li.open>a,.navmenu a,.navmenu li>a>span,.navmenu li>a:hover>span,.italiawp2-sidebar .cerca input,section .pagination .page-item .page-link,section .pagination .page-item .page-numbers,section .pagination .page-item .page-link,section .pagination .page-item .page-links{color:#97735B}
+#mainheader .p_cercaMobile input[type=text]::placeholder,.italiawp2-sidebar .cerca input::placeholder{color:#97735B;opacity:1}
+#mainheader .p_cercaMobile input[type=text]:-ms-input-placeholder,.italiawp2-sidebar .cerca input:-ms-input-placeholder{color:#97735B}
+#mainheader .p_cercaMobile input[type=text]::-ms-input-placeholder,.italiawp2-sidebar .cerca input::-ms-input-placeholder{color:#97735B}
+.italiawp2-sidebar .cerca input,#mainheader .p_cercaMobile input[type=text]{border-color:#97735B !important}
+.argomenti .badge-argomenti,.scheda-news .scheda-argomenti .badge-argomenti{color:#97735B;border-color:#97735B}
+.socialmobile a svg.icon,#mainheader .btn-cerca svg.icon,.articolo-paragrafi .icon-external-link,#menu-sinistro .icon,section .pagination .page-item .page-link svg.icon,section .pagination .page-item .page-numbers svg.icon{fill:#97735B}
+#mainheader .p_cercaMobile .btn-cerca svg.icon{fill:#97735B !important}
+.argomenti a.badge-argomenti:hover,.italiawp2-sidebar .btn-cerca,.italiawp2-sidebar .wp-block-search__button,.scheda-news .scheda-argomenti a.badge-argomenti:hover{background-color:#97735B}
+.u-background-95,.ScrollTop,.mfp-bg,mfp-img,.Footer .Form-input:not(.is-disabled),.Footer .Form-input:not(:disabled),.has-colore-primario-scuro-background-color{background-color:#97735B !important}
+.u-backround-none{background-color:transparent !important}
+.u-color-compl,.has-colore-complementare-color,#mainheader .social a:hover,#mainheader .preheader .accedi .btn-accedi:hover span,.socialmobile a:hover{color:#354A58 !important}
+#mainheader .preheader .accedi .btn-accedi:hover svg.icon,#mainheader .social a:hover svg.icon,.socialmobile a:hover svg.icon{fill:#354A58 !important}
+.u-background-compl,.has-colore-complementare-background-color,#mainheader .btn-cerca:hover,#sezione-notifica{background-color:#354A58 !important}
+.navmenu>li.open>a,.navmenu>li>a:hover,.navmenu>li>a:focus{border-color:#354A58 !important}
+.u-background-compl-5,.navmenu>li>a:hover,.navmenu>li>a:focus,.navmenu>li.open ul li a:hover,.navmenu>li.open ul>li.open>a,.dropdown-item:focus,.dropdown-item:hover{background-color:#F0F3F5 !important}
+.u-color-compl-5{color:#F0F3F5 !important}
+.u-color-compl-10,#footer .footer-list li a:hover,#footer .social a:hover,#footer .postFooter a:hover{color:#DEE7ED !important}
+.u-background-compl-10,.navmenu>li.open>a{background-color:#DEE7ED !important}
+#footer .social a:hover svg.icon{fill:#DEE7ED !important}
+.u-color-compl-80{color:#007ACC !important}
+.u-background-compl-80,.u-background-compl-80 a:not(.Button--info){background-color:#007ACC !important}
+.Footer a,.CookieBar a,.section-gallery a,.owl-prev,.owl-next,figure figcaption > p:first-of-type{color:#99D6FF !important}
+.Button--default{border-color:#99D6FF !important}
+#wp-calendar a,.Footer-socialIcons [class*=Icon-],.Footer-socialIcons [class^=Icon-],.Button--default{background-color:#99D6FF !important}</style><style>.u-color-black{color:#000 !important}
+.u-background-black{background-color:#000 !important}
+.u-color-white,.Bullets>li:before,.Footer,.Footer-blockTitle,.Footer-subTitle,.Form-input.Form-input:focus+[role=tooltip],.Linklist-link.Linklist-link--lev1,.Linklist-link.Linklist-link--lev1:hover,.Megamenu--default .Megamenu-item>a,.ScrollTop,.ScrollTop-icon,.Share-reveal>a>span,.Share-revealIcon,.Share>ul>li,.Share>ul>li>a,.Spid-button,.Footer-block li,.Footer-subBlock,#footer .wp-calendar-table,#footer .wp-block-calendar table tbody{color:#fff !important}
+.u-background-white,.Megamenu--default .Megamenu-subnav,.Skiplinks>li>a,.Spid-menu{background-color:#fff !important}
+.u-color-grey-10,.Footer-block address{color:#f5f5f0 !important}
+.u-background-grey-10,.Spid-idp:hover{background-color:#f5f5f0 !important}
+.u-color-grey-15{color:#f6f9fc !important}
+.u-background-grey-15{background-color:#f6f9fc !important}
+.u-color-grey-20{color:#eee !important}
+.u-background-grey-20,.Hero-content,.Share-reveal,.Share-revealIcon.is-open,.Treeview--default li[aria-expanded=true] li a,.Treeview--default li[aria-expanded=true] li a:hover,#menu-sinistro .menu-separatore{background-color:#eee !important}
+.u-color-grey-30,.Accordion--default .Accordion-header,.Accordion--plus .Accordion-header,.Linklist,.Linklist li,.Timeline{color:#ddd !important}
+.u-background-grey-30,.Treeview--default li[aria-expanded=true] li li a,.Treeview--default li[aria-expanded=true] li li a:hover{background-color:#ddd !important}
+.Accordion--default .Accordion-header,.Accordion--plus .Accordion-header,.Footer-block li,.Footer-links,.Footer-subBlock,.Leads-link,.Linklist li,.u-border-top-xxs{border-color:#ddd !important}
+.u-color-grey-40,.Megamenu--default .Megamenu-subnavGroup{color:#a5abb0 !important}
+.u-background-grey-40{background-color:#a5abb0 !important}
+.u-color-grey-50,.Megamenu--default .Megamenu-subnavGroup>li,.Share-revealText{color:#5a6772 !important}
+.u-background-grey-50{background-color:#5a6772 !important}
+.u-color-grey-60{color:#444e57 !important}
+.u-background-grey-60,#articolo-dettaglio-testo .galleriasfondo{background-color:#444e57 !important}
+.u-color-grey-80,.Megamenu--default .Megamenu-subnavGroup>li>ul>li>ul>li>a,.Megamenu--default .Megamenu-subnavGroup>li>ul>li a,#menu-sinistro h4.dropdown,#briciole .breadcrumb .breadcrumb-item.active,label{color:#30373d !important}
+.u-background-grey-80,.Form-input.Form-input:focus+[role=tooltip],.Header-banner{background-color:#30373d !important}
+.u-color-grey-90{color:#1c2024 !important}
+.u-background-grey-90{background-color:#1c2024 !important}
+.u-color-teal-30{color:#00c5ca !important}
+.u-background-teal-30{background-color:#00c5ca !important}
+.u-color-teal-50{color:#65dcdf !important}
+.u-background-teal-50{background-color:#65dcdf !important}
+.u-color-teal-70{color:#004a4d !important}
+.u-background-teal-70{background-color:#004a4d !important}
+.u-color-5{color:#FFFFFF !important}
+.u-background-5,.Accordion--default .Accordion-header:hover,.Accordion--plus .Accordion-header:hover,.Linklist a:hover{background-color:#FFFFFF !important}
+.u-color-10,#footer,#footer .postFooter,#footer label,#footer caption,#footer .wp-calendar-table th,#footer .wp-block-calendar th,table#wp-calendar a,.wp-block-calendar a{color:#FFFFFF !important}
+#footer .footer-list .icon{fill:#FFFFFF}
+.u-background-10,.Linklist-link.Linklist-link--lev3{background-color:#FFFFFF !important}
+#footer h4,#footer .postFooter{border-color:#FFFFFF !important}
+.u-background-20,.Linklist-link.Linklist-link--lev2,.Linklist-link.Linklist-link--lev2:hover{background-color:#FFFFFF !important}
+.u-color-20{color:#FFFFFF !important}
+.u-color-30,.has-colore-primario-chiaro-color{color:#ECEBEB !important}
+.u-background-30,.has-colore-primario-chiaro-background-color{background-color:#ECEBEB !important}
+.u-color-40,.Header-owner{color:#D2CCC8 !important}
+.u-background-40,.Megamenu--default{background-color:#D2CCC8 !important}
+.u-color-50,.Accordion--default .Accordion-link,.Accordion--plus .Accordion-link,.ErrorPage-subtitle,.ErrorPage-title,.Header-language-other a,.Linklist-link,.Linklist a,.Share-revealIcon.is-open,.Skiplinks>li>a,.Header-socialIcons [class*=" Icon-"],.Header-socialIcons [class^=Icon-],.has-colore-primario-color,.tutte{color:#cab5a7 !important}
+.chip.chip-primary,.chip.chip-primary>.chip-label,.scheda-argomento-lista-testo a,.articolo-paragrafi a,#articolo-dettaglio-testo .scheda-allegato h4 a,#articolo-dettaglio-testo .scheda-ufficio-contatti h4 a,.card .card-body a h5.card-title{color:#cab5a7}
+.chip.chip-primary,.chip.chip-primary:hover{border-color:#cab5a7}
+.btn-primary,.btn-outline-primary{border-color:#cab5a7 !important}
+.btn-outline-primary{-webkit-box-shadow:inset 0 0 0 1px #cab5a7;box-shadow:inset 0 0 0 1px #cab5a7}
+.chip.chip-primary:hover{background-color:#cab5a7}
+.u-background-50,.Header-navbar,.Bullets>li:before,.Share-revealIcon,.Share>ul>li,.Header-searchTrigger button,.has-colore-primario-background-color,.flag-icon,.btn-primary{background-color:#cab5a7 !important}
+.tutte svg.icon,#articolo-dettaglio-testo .scheda-allegato svg.icon,.scheda-allegato svg.icon{fill:#cab5a7 !important}
+.u-color-60,.Header-banner{color:#C0A897 !important}
+.u-background-60{background-color:#C0A897 !important}
+.u-color-70{color:#B79A87 !important}
+.u-background-70,.push-body-toright .body_wrapper,.push-body-toright .body_wrapper .preheader{background-color:#B79A87 !important}
+.u-color-80,.Button--info{color:#AD8D77 !important}
+.u-background-80{background-color:#AD8D77 !important}
+input[type="date"],input[type="datetime-local"],input[type="email"],input[type="number"],input[type="password"],input[type="search"],input[type="tel"],input[type="text"],input[type="time"],input[type="url"],textarea{border-color:#AD8D77 !important}
+#mainheader .preheader .accedi{border-color:transparent}
+.u-color-90{color:#A47F67 !important}
+.dropdown-item{color:#A47F67}
+.u-background-90,.Linklist-link.Linklist-link--lev1,.Linklist-link.Linklist-link--lev1:hover,.btn-primary:hover{background-color:#A47F67 !important}
+.btn-primary:hover,.btn-outline-primary:hover{border-color:#A47F67 !important}
+.btn-outline-primary:hover{-webkit-box-shadow:inset 0 0 0 1px #A47F67;box-shadow:inset 0 0 0 1px #A47F67}
+.u-color-95,#intro .titolo-sezione h2,#intro-argomenti .titolo-sezione h2,#introricerca .titolo-sezione h2,#intro-sititematici .titolo-sezione h2,#briciole a,.Linklist-link.Linklist-link--lev2,.Linklist-link.Linklist-link--lev2:hover,.Linklist-link.Linklist-link--lev3,.Linklist a:hover,.Megamenu--default .Megamenu-subnavGroup>li>a,.Treeview--default li[aria-expanded=true] li a,.Treeview--default li[aria-expanded=true] li a:hover,.Treeview--default li[aria-expanded=true] li li a,.Treeview--default li[aria-expanded=true] li li a:hover,#wp-calendar a,.Footer-socialIcons [class*=Icon-],.Footer-socialIcons [class^=Icon-],.Button--default,.has-colore-primario-scuro-color,.scheda .scheda-testo h4 a,.scheda .scheda-testo h4 a:not([href]):not([tabindex]),.scheda .scheda-testo h4 a:not([href]):not([tabindex]):focus,.scheda .scheda-testo h4 a:not([href]):not([tabindex]):hover,.form-group input,.form-group optgroup,.form-group textarea{color:#97735B !important}
+.articolo-paragrafi a:hover,.novita-testo h2 a,.scheda .scheda-testo-small h4 a,.scheda .scheda-icona-small a,.cbp-spmenu .logotxt-burger a,.navmenu li a,.utilitymobile li a,.socialmobile .small,#mainheader .p_cercaMobile input[type=text],#menu-sinistro #lista-paragrafi .list-group-item,#menu-sinistro .lista-paragrafi .list-group-item,.dropdown-item:focus,.dropdown-item:hover,.navmenu>li.open ul li a,.navmenu>li.open ul li a:hover,.navmenu>li.open ul>li.open>a,.navmenu a,.navmenu li>a>span,.navmenu li>a:hover>span,.italiawp2-sidebar .cerca input,section .pagination .page-item .page-link,section .pagination .page-item .page-numbers,section .pagination .page-item .page-link,section .pagination .page-item .page-links{color:#97735B}
+#mainheader .p_cercaMobile input[type=text]::placeholder,.italiawp2-sidebar .cerca input::placeholder{color:#97735B;opacity:1}
+#mainheader .p_cercaMobile input[type=text]:-ms-input-placeholder,.italiawp2-sidebar .cerca input:-ms-input-placeholder{color:#97735B}
+#mainheader .p_cercaMobile input[type=text]::-ms-input-placeholder,.italiawp2-sidebar .cerca input::-ms-input-placeholder{color:#97735B}
+.italiawp2-sidebar .cerca input,#mainheader .p_cercaMobile input[type=text]{border-color:#97735B !important}
+.argomenti .badge-argomenti,.scheda-news .scheda-argomenti .badge-argomenti{color:#97735B;border-color:#97735B}
+.socialmobile a svg.icon,#mainheader .btn-cerca svg.icon,.articolo-paragrafi .icon-external-link,#menu-sinistro .icon,section .pagination .page-item .page-link svg.icon,section .pagination .page-item .page-numbers svg.icon{fill:#97735B}
+#mainheader .p_cercaMobile .btn-cerca svg.icon{fill:#97735B !important}
+.argomenti a.badge-argomenti:hover,.italiawp2-sidebar .btn-cerca,.italiawp2-sidebar .wp-block-search__button,.scheda-news .scheda-argomenti a.badge-argomenti:hover{background-color:#97735B}
+.u-background-95,.ScrollTop,.mfp-bg,mfp-img,.Footer .Form-input:not(.is-disabled),.Footer .Form-input:not(:disabled),.has-colore-primario-scuro-background-color{background-color:#97735B !important}
+.u-backround-none{background-color:transparent !important}
+.u-color-compl,.has-colore-complementare-color,#mainheader .social a:hover,#mainheader .preheader .accedi .btn-accedi:hover span,.socialmobile a:hover{color:#354A58 !important}
+#mainheader .preheader .accedi .btn-accedi:hover svg.icon,#mainheader .social a:hover svg.icon,.socialmobile a:hover svg.icon{fill:#354A58 !important}
+.u-background-compl,.has-colore-complementare-background-color,#mainheader .btn-cerca:hover,#sezione-notifica{background-color:#354A58 !important}
+.navmenu>li.open>a,.navmenu>li>a:hover,.navmenu>li>a:focus{border-color:#354A58 !important}
+.u-background-compl-5,.navmenu>li>a:hover,.navmenu>li>a:focus,.navmenu>li.open ul li a:hover,.navmenu>li.open ul>li.open>a,.dropdown-item:focus,.dropdown-item:hover{background-color:#F0F3F5 !important}
+.u-color-compl-5{color:#F0F3F5 !important}
+.u-color-compl-10,#footer .footer-list li a:hover,#footer .social a:hover,#footer .postFooter a:hover{color:#DEE7ED !important}
+.u-background-compl-10,.navmenu>li.open>a{background-color:#DEE7ED !important}
+#footer .social a:hover svg.icon{fill:#DEE7ED !important}
+.u-color-compl-80{color:#007ACC !important}
+.u-background-compl-80,.u-background-compl-80 a:not(.Button--info){background-color:#007ACC !important}
+.Footer a,.CookieBar a,.section-gallery a,.owl-prev,.owl-next,figure figcaption > p:first-of-type{color:#99D6FF !important}
+.Button--default{border-color:#99D6FF !important}
+#wp-calendar a,.Footer-socialIcons [class*=Icon-],.Footer-socialIcons [class^=Icon-],.Button--default{background-color:#99D6FF !important}</style><style>.u-color-black{color:#000 !important}
+.u-background-black{background-color:#000 !important}
+.u-color-white,.Bullets>li:before,.Footer,.Footer-blockTitle,.Footer-subTitle,.Form-input.Form-input:focus+[role=tooltip],.Linklist-link.Linklist-link--lev1,.Linklist-link.Linklist-link--lev1:hover,.Megamenu--default .Megamenu-item>a,.ScrollTop,.ScrollTop-icon,.Share-reveal>a>span,.Share-revealIcon,.Share>ul>li,.Share>ul>li>a,.Spid-button,.Footer-block li,.Footer-subBlock,#footer .wp-calendar-table,#footer .wp-block-calendar table tbody{color:#fff !important}
+.u-background-white,.Megamenu--default .Megamenu-subnav,.Skiplinks>li>a,.Spid-menu{background-color:#fff !important}
+.u-color-grey-10,.Footer-block address{color:#f5f5f0 !important}
+.u-background-grey-10,.Spid-idp:hover{background-color:#f5f5f0 !important}
+.u-color-grey-15{color:#f6f9fc !important}
+.u-background-grey-15{background-color:#f6f9fc !important}
+.u-color-grey-20{color:#eee !important}
+.u-background-grey-20,.Hero-content,.Share-reveal,.Share-revealIcon.is-open,.Treeview--default li[aria-expanded=true] li a,.Treeview--default li[aria-expanded=true] li a:hover,#menu-sinistro .menu-separatore{background-color:#eee !important}
+.u-color-grey-30,.Accordion--default .Accordion-header,.Accordion--plus .Accordion-header,.Linklist,.Linklist li,.Timeline{color:#ddd !important}
+.u-background-grey-30,.Treeview--default li[aria-expanded=true] li li a,.Treeview--default li[aria-expanded=true] li li a:hover{background-color:#ddd !important}
+.Accordion--default .Accordion-header,.Accordion--plus .Accordion-header,.Footer-block li,.Footer-links,.Footer-subBlock,.Leads-link,.Linklist li,.u-border-top-xxs{border-color:#ddd !important}
+.u-color-grey-40,.Megamenu--default .Megamenu-subnavGroup{color:#a5abb0 !important}
+.u-background-grey-40{background-color:#a5abb0 !important}
+.u-color-grey-50,.Megamenu--default .Megamenu-subnavGroup>li,.Share-revealText{color:#5a6772 !important}
+.u-background-grey-50{background-color:#5a6772 !important}
+.u-color-grey-60{color:#444e57 !important}
+.u-background-grey-60,#articolo-dettaglio-testo .galleriasfondo{background-color:#444e57 !important}
+.u-color-grey-80,.Megamenu--default .Megamenu-subnavGroup>li>ul>li>ul>li>a,.Megamenu--default .Megamenu-subnavGroup>li>ul>li a,#menu-sinistro h4.dropdown,#briciole .breadcrumb .breadcrumb-item.active,label{color:#30373d !important}
+.u-background-grey-80,.Form-input.Form-input:focus+[role=tooltip],.Header-banner{background-color:#30373d !important}
+.u-color-grey-90{color:#1c2024 !important}
+.u-background-grey-90{background-color:#1c2024 !important}
+.u-color-teal-30{color:#00c5ca !important}
+.u-background-teal-30{background-color:#00c5ca !important}
+.u-color-teal-50{color:#65dcdf !important}
+.u-background-teal-50{background-color:#65dcdf !important}
+.u-color-teal-70{color:#004a4d !important}
+.u-background-teal-70{background-color:#004a4d !important}
+.u-color-5{color:#FFFFFF !important}
+.u-background-5,.Accordion--default .Accordion-header:hover,.Accordion--plus .Accordion-header:hover,.Linklist a:hover{background-color:#FFFFFF !important}
+.u-color-10,#footer,#footer .postFooter,#footer label,#footer caption,#footer .wp-calendar-table th,#footer .wp-block-calendar th,table#wp-calendar a,.wp-block-calendar a{color:#FFFFFF !important}
+#footer .footer-list .icon{fill:#FFFFFF}
+.u-background-10,.Linklist-link.Linklist-link--lev3{background-color:#FFFFFF !important}
+#footer h4,#footer .postFooter{border-color:#FFFFFF !important}
+.u-background-20,.Linklist-link.Linklist-link--lev2,.Linklist-link.Linklist-link--lev2:hover{background-color:#FFFFFF !important}
+.u-color-20{color:#FFFFFF !important}
+.u-color-30,.has-colore-primario-chiaro-color{color:#ECEBEB !important}
+.u-background-30,.has-colore-primario-chiaro-background-color{background-color:#ECEBEB !important}
+.u-color-40,.Header-owner{color:#D2CCC8 !important}
+.u-background-40,.Megamenu--default{background-color:#D2CCC8 !important}
+.u-color-50,.Accordion--default .Accordion-link,.Accordion--plus .Accordion-link,.ErrorPage-subtitle,.ErrorPage-title,.Header-language-other a,.Linklist-link,.Linklist a,.Share-revealIcon.is-open,.Skiplinks>li>a,.Header-socialIcons [class*=" Icon-"],.Header-socialIcons [class^=Icon-],.has-colore-primario-color,.tutte{color:#cab5a7 !important}
+.chip.chip-primary,.chip.chip-primary>.chip-label,.scheda-argomento-lista-testo a,.articolo-paragrafi a,#articolo-dettaglio-testo .scheda-allegato h4 a,#articolo-dettaglio-testo .scheda-ufficio-contatti h4 a,.card .card-body a h5.card-title{color:#cab5a7}
+.chip.chip-primary,.chip.chip-primary:hover{border-color:#cab5a7}
+.btn-primary,.btn-outline-primary{border-color:#cab5a7 !important}
+.btn-outline-primary{-webkit-box-shadow:inset 0 0 0 1px #cab5a7;box-shadow:inset 0 0 0 1px #cab5a7}
+.chip.chip-primary:hover{background-color:#cab5a7}
+.u-background-50,.Header-navbar,.Bullets>li:before,.Share-revealIcon,.Share>ul>li,.Header-searchTrigger button,.has-colore-primario-background-color,.flag-icon,.btn-primary{background-color:#cab5a7 !important}
+.tutte svg.icon,#articolo-dettaglio-testo .scheda-allegato svg.icon,.scheda-allegato svg.icon{fill:#cab5a7 !important}
+.u-color-60,.Header-banner{color:#C0A897 !important}
+.u-background-60{background-color:#C0A897 !important}
+.u-color-70{color:#B79A87 !important}
+.u-background-70,.push-body-toright .body_wrapper,.push-body-toright .body_wrapper .preheader{background-color:#B79A87 !important}
+.u-color-80,.Button--info{color:#AD8D77 !important}
+.u-background-80{background-color:#AD8D77 !important}
+input[type="date"],input[type="datetime-local"],input[type="email"],input[type="number"],input[type="password"],input[type="search"],input[type="tel"],input[type="text"],input[type="time"],input[type="url"],textarea{border-color:#AD8D77 !important}
+#mainheader .preheader .accedi{border-color:transparent}
+.u-color-90{color:#A47F67 !important}
+.dropdown-item{color:#A47F67}
+.u-background-90,.Linklist-link.Linklist-link--lev1,.Linklist-link.Linklist-link--lev1:hover,.btn-primary:hover{background-color:#A47F67 !important}
+.btn-primary:hover,.btn-outline-primary:hover{border-color:#A47F67 !important}
+.btn-outline-primary:hover{-webkit-box-shadow:inset 0 0 0 1px #A47F67;box-shadow:inset 0 0 0 1px #A47F67}
+.u-color-95,#intro .titolo-sezione h2,#intro-argomenti .titolo-sezione h2,#introricerca .titolo-sezione h2,#intro-sititematici .titolo-sezione h2,#briciole a,.Linklist-link.Linklist-link--lev2,.Linklist-link.Linklist-link--lev2:hover,.Linklist-link.Linklist-link--lev3,.Linklist a:hover,.Megamenu--default .Megamenu-subnavGroup>li>a,.Treeview--default li[aria-expanded=true] li a,.Treeview--default li[aria-expanded=true] li a:hover,.Treeview--default li[aria-expanded=true] li li a,.Treeview--default li[aria-expanded=true] li li a:hover,#wp-calendar a,.Footer-socialIcons [class*=Icon-],.Footer-socialIcons [class^=Icon-],.Button--default,.has-colore-primario-scuro-color,.scheda .scheda-testo h4 a,.scheda .scheda-testo h4 a:not([href]):not([tabindex]),.scheda .scheda-testo h4 a:not([href]):not([tabindex]):focus,.scheda .scheda-testo h4 a:not([href]):not([tabindex]):hover,.form-group input,.form-group optgroup,.form-group textarea{color:#97735B !important}
+.articolo-paragrafi a:hover,.novita-testo h2 a,.scheda .scheda-testo-small h4 a,.scheda .scheda-icona-small a,.cbp-spmenu .logotxt-burger a,.navmenu li a,.utilitymobile li a,.socialmobile .small,#mainheader .p_cercaMobile input[type=text],#menu-sinistro #lista-paragrafi .list-group-item,#menu-sinistro .lista-paragrafi .list-group-item,.dropdown-item:focus,.dropdown-item:hover,.navmenu>li.open ul li a,.navmenu>li.open ul li a:hover,.navmenu>li.open ul>li.open>a,.navmenu a,.navmenu li>a>span,.navmenu li>a:hover>span,.italiawp2-sidebar .cerca input,section .pagination .page-item .page-link,section .pagination .page-item .page-numbers,section .pagination .page-item .page-link,section .pagination .page-item .page-links{color:#97735B}
+#mainheader .p_cercaMobile input[type=text]::placeholder,.italiawp2-sidebar .cerca input::placeholder{color:#97735B;opacity:1}
+#mainheader .p_cercaMobile input[type=text]:-ms-input-placeholder,.italiawp2-sidebar .cerca input:-ms-input-placeholder{color:#97735B}
+#mainheader .p_cercaMobile input[type=text]::-ms-input-placeholder,.italiawp2-sidebar .cerca input::-ms-input-placeholder{color:#97735B}
+.italiawp2-sidebar .cerca input,#mainheader .p_cercaMobile input[type=text]{border-color:#97735B !important}
+.argomenti .badge-argomenti,.scheda-news .scheda-argomenti .badge-argomenti{color:#97735B;border-color:#97735B}
+.socialmobile a svg.icon,#mainheader .btn-cerca svg.icon,.articolo-paragrafi .icon-external-link,#menu-sinistro .icon,section .pagination .page-item .page-link svg.icon,section .pagination .page-item .page-numbers svg.icon{fill:#97735B}
+#mainheader .p_cercaMobile .btn-cerca svg.icon{fill:#97735B !important}
+.argomenti a.badge-argomenti:hover,.italiawp2-sidebar .btn-cerca,.italiawp2-sidebar .wp-block-search__button,.scheda-news .scheda-argomenti a.badge-argomenti:hover{background-color:#97735B}
+.u-background-95,.ScrollTop,.mfp-bg,mfp-img,.Footer .Form-input:not(.is-disabled),.Footer .Form-input:not(:disabled),.has-colore-primario-scuro-background-color{background-color:#97735B !important}
+.u-backround-none{background-color:transparent !important}
+.u-color-compl,.has-colore-complementare-color,#mainheader .social a:hover,#mainheader .preheader .accedi .btn-accedi:hover span,.socialmobile a:hover{color:#354A58 !important}
+#mainheader .preheader .accedi .btn-accedi:hover svg.icon,#mainheader .social a:hover svg.icon,.socialmobile a:hover svg.icon{fill:#354A58 !important}
+.u-background-compl,.has-colore-complementare-background-color,#mainheader .btn-cerca:hover,#sezione-notifica{background-color:#354A58 !important}
+.navmenu>li.open>a,.navmenu>li>a:hover,.navmenu>li>a:focus{border-color:#354A58 !important}
+.u-background-compl-5,.navmenu>li>a:hover,.navmenu>li>a:focus,.navmenu>li.open ul li a:hover,.navmenu>li.open ul>li.open>a,.dropdown-item:focus,.dropdown-item:hover{background-color:#F0F3F5 !important}
+.u-color-compl-5{color:#F0F3F5 !important}
+.u-color-compl-10,#footer .footer-list li a:hover,#footer .social a:hover,#footer .postFooter a:hover{color:#DEE7ED !important}
+.u-background-compl-10,.navmenu>li.open>a{background-color:#DEE7ED !important}
+#footer .social a:hover svg.icon{fill:#DEE7ED !important}
+.u-color-compl-80{color:#007ACC !important}
+.u-background-compl-80,.u-background-compl-80 a:not(.Button--info){background-color:#007ACC !important}
+.Footer a,.CookieBar a,.section-gallery a,.owl-prev,.owl-next,figure figcaption > p:first-of-type{color:#99D6FF !important}
+.Button--default{border-color:#99D6FF !important}
+#wp-calendar a,.Footer-socialIcons [class*=Icon-],.Footer-socialIcons [class^=Icon-],.Button--default{background-color:#99D6FF !important}</style><style>#mainheader,#mainheader .comune .logotxt h1 a,#mainheader .comune .logotxt h1 a:hover,#mainheader .cerca input,#mainheader .preheader .entesup a,.scheda-sito.u-background-50{color:#674E3E !important}
+#mainheader .social a svg.icon,#mainheader .preheader .accedi .btn-accedi svg.icon{fill:#674E3E !important}
+#mainheader .btn-cerca svg.icon{fill:#fff !important}
+#mainheader .btn-cerca{background:#674E3E !important}
+#mainheader .cerca input{border-color:#674E3E !important}
+@media (min-width:992px){.navbar .navbar-collapsable .navbar-nav li a.nav-link{color:#674E3E !important}}</style><style>#mainheader,#mainheader .comune .logotxt h1 a,#mainheader .comune .logotxt h1 a:hover,#mainheader .cerca input,#mainheader .preheader .entesup a,.scheda-sito.u-background-50{color:#674E3E !important}
+#mainheader .social a svg.icon,#mainheader .preheader .accedi .btn-accedi svg.icon{fill:#674E3E !important}
+#mainheader .btn-cerca svg.icon{fill:#fff !important}
+#mainheader .btn-cerca{background:#674E3E !important}
+#mainheader .cerca input{border-color:#674E3E !important}
+@media (min-width:992px){.navbar .navbar-collapsable .navbar-nav li a.nav-link{color:#674E3E !important}}</style>
