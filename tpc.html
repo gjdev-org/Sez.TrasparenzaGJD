@@ -1,0 +1,599 @@
+
+<!doctype html>
+<html lang="it-IT">
+<head>
+
+<link id="av-dist-url" href="https://bibliogabby.altervista.org/_av_share/master/static/wordpress/dist/"><script nomodule>document.write("<script src=\"https:\/\/cdnjs.cloudflare.com\/polyfill\/v3\/polyfill.min.js?flags=gated&features=default,es2016,es2017,fetch,Element.prototype.toggleAttribute\"><\/script><script src=\"https:\/\/bibliogabby.altervista.org\/_av_share\/master\/static\/wordpress\/dist\/jscompat\/system.js?1726663503\"><\/script><script src=\"https:\/\/bibliogabby.altervista.org\/_av_share\/master\/static\/wordpress\/dist\/jscompat\/regenerator-runtime.js?1726663503\"><\/script><script>[\"https:\\\/\\\/bibliogabby.altervista.org\\\/_av_share\\\/master\\\/static\\\/wordpress\\\/dist\\\/jscompat\\\/main.js?1732713191\"].forEach(function(x){System.import(x)})<\/script>");document.addEventListener("beforeload",function(e){e.target.type=="module"&&e.preventDefault()},true)</script><script type="module" async="" src="https://bibliogabby.altervista.org/_av_share/master/static/wordpress/dist/jsmodule/main.js?1732713191"></script><style>.av-hide-before-loading-styles{overflow:hidden;visibility:hidden}.av-unrender-before-loading-styles{display:none}
+/*# sourceMappingURL=inhibit-fouc.min.css.map *//*# sourceURL=https://bibliogabby.altervista.org/_av_share/master/static/wordpress/dist/css/inhibit-fouc.min.css?1631526893*/</style><style>av-facebook-video{aspect-ratio:16/9;display:block}
+/*# sourceMappingURL=facebook-video.min.css.map *//*# sourceURL=https://bibliogabby.altervista.org/_av_share/master/static/wordpress/dist/css/facebook-video.min.css?1720620836*/</style><style>av-adv-slot{display:block;text-align:center}.hentry av-adv-slot{clear:both;margin-bottom:1em;margin-top:1em}av-adv-autoplacer-experiment,av-adv-video{display:block}av-adv-video{aspect-ratio:var(--av-width) /var(--av-height)}av-adv-slot ins.adsbygoogle{all:revert;margin:0 auto}body>ins.adsbygoogle[data-anchor-status]{z-index:100!important}av-adv-slot.av-adsense-responsive{--av-adsense-adslot-min-height:83.33333vw;min-height:83.33333vw;min-height:var(--av-adsense-adslot-min-height)}av-adv-slot.av-adsense-responsive>.av-adsense-container>.av-adsense-full-width-container{left:0;position:absolute;right:0}@media (min-width:488px){av-adv-slot.av-adsense-responsive>.av-adsense-container{position:relative}av-adv-slot.av-adsense-responsive{--av-adsense-adslot-min-height:280px;min-height:280px}}av-adv-slot .OUTBRAIN{display:flow-root;overflow:hidden}.st-placement.inImage:not(#_) .st-adunit{z-index:0!important}av-adv-interstitial>.av-interstitial-container{background:#000;bottom:0;display:grid;grid-template:"close" 80px "ad" minmax(0,1fr);height:100%;left:0;position:fixed;right:0;top:0;z-index:2147483647}@media (max-height:500px){av-adv-interstitial>.av-interstitial-container{grid-template:"close ad" minmax(0,1fr) /fit-content(200px) minmax(0,1fr)}}av-adv-interstitial>.av-interstitial-container.av-no-close-button{grid-template:"ad" minmax(0,1fr)}av-adv-interstitial>.av-interstitial-container[hidden]{transform:translateY(-200%)}av-adv-interstitial>.av-interstitial-container>button{all:initial;align-self:center;background:#fff;border-radius:4px;color:#000;font:700 16px/1 sans-serif;grid-area:close;justify-self:center;margin:1em;padding:1em 2em;text-align:center}av-adv-interstitial>.av-interstitial-container>.av-interstitial-ad-container{grid-area:ad;height:100%;overflow:hidden;width:100%}av-adv-interstitial>.av-interstitial-container>.av-interstitial-ad-container>*{height:100%;width:100%}.av-interstitial-wrap>[data-google-query-id]{align-items:center;display:inline-flex!important;height:100%}.av-interstitial-wrap>[data-google-query-id] :not(iframe){display:contents!important}.av-interstitial-wrap>[data-google-query-id] iframe{display:block;max-height:100%;max-width:100%}
+/*# sourceMappingURL=autopilot.min.css.map *//*# sourceURL=https://bibliogabby.altervista.org/_av_share/master/static/wordpress/dist/css/autopilot.min.css?1731403040*/</style><link rel='stylesheet' id='av-loader-block-css' href='https://bibliogabby.altervista.org/_av_share/master/static/wordpress/loader/build/style-index.css?ver=1728916865' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css' href='https://bibliogabby.altervista.org/wp-includes/css/dist/block-library/style.min.css?ver=6.7.1' type='text/css' media='all' />
+<style id='wp-block-library-theme-inline-css' type='text/css'>
+.wp-block-audio :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio :where(figcaption){color:#ffffffa6}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed :where(figcaption){color:#ffffffa6}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:#ffffffa6}:root :where(.wp-block-image figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme :root :where(.wp-block-image figcaption){color:#ffffffa6}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote cite,.wp-block-pullquote footer,.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote:where(.has-text-align-right){border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote:where(.has-text-align-center){border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote:where(.is-style-plain){border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table :where(figcaption){color:#ffffffa6}.wp-block-video :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video :where(figcaption){color:#ffffffa6}.wp-block-video{margin:0 0 1em}:root :where(.wp-block-template-part.has-background){margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+
+<link rel='stylesheet' id='italiawp2-bootstrap-italia.min-css' href='https://bibliogabby.altervista.org/wp-content/themes/italiawp2/static/css/bootstrap-italia.min.css?ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='italiawp2-home-css' href='https://bibliogabby.altervista.org/wp-content/themes/italiawp2/static/css/home.css?ver=6.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='italiawp2-tema-css' href='https://bibliogabby.altervista.org/wp-content/themes/italiawp2/static/css/tema.css?ver=6.7.1' type='text/css' media='all' />
+<style>.u-color-black{color:#000 !important}
+.u-background-black{background-color:#000 !important}
+.u-color-white,.Bullets>li:before,.Footer,.Footer-blockTitle,.Footer-subTitle,.Form-input.Form-input:focus+[role=tooltip],.Linklist-link.Linklist-link--lev1,.Linklist-link.Linklist-link--lev1:hover,.Megamenu--default .Megamenu-item>a,.ScrollTop,.ScrollTop-icon,.Share-reveal>a>span,.Share-revealIcon,.Share>ul>li,.Share>ul>li>a,.Spid-button,.Footer-block li,.Footer-subBlock,#footer .wp-calendar-table,#footer .wp-block-calendar table tbody{color:#fff !important}
+.u-background-white,.Megamenu--default .Megamenu-subnav,.Skiplinks>li>a,.Spid-menu{background-color:#fff !important}
+.u-color-grey-10,.Footer-block address{color:#f5f5f0 !important}
+.u-background-grey-10,.Spid-idp:hover{background-color:#f5f5f0 !important}
+.u-color-grey-15{color:#f6f9fc !important}
+.u-background-grey-15{background-color:#f6f9fc !important}
+.u-color-grey-20{color:#eee !important}
+.u-background-grey-20,.Hero-content,.Share-reveal,.Share-revealIcon.is-open,.Treeview--default li[aria-expanded=true] li a,.Treeview--default li[aria-expanded=true] li a:hover,#menu-sinistro .menu-separatore{background-color:#eee !important}
+.u-color-grey-30,.Accordion--default .Accordion-header,.Accordion--plus .Accordion-header,.Linklist,.Linklist li,.Timeline{color:#ddd !important}
+.u-background-grey-30,.Treeview--default li[aria-expanded=true] li li a,.Treeview--default li[aria-expanded=true] li li a:hover{background-color:#ddd !important}
+.Accordion--default .Accordion-header,.Accordion--plus .Accordion-header,.Footer-block li,.Footer-links,.Footer-subBlock,.Leads-link,.Linklist li,.u-border-top-xxs{border-color:#ddd !important}
+.u-color-grey-40,.Megamenu--default .Megamenu-subnavGroup{color:#a5abb0 !important}
+.u-background-grey-40{background-color:#a5abb0 !important}
+.u-color-grey-50,.Megamenu--default .Megamenu-subnavGroup>li,.Share-revealText{color:#5a6772 !important}
+.u-background-grey-50{background-color:#5a6772 !important}
+.u-color-grey-60{color:#444e57 !important}
+.u-background-grey-60,#articolo-dettaglio-testo .galleriasfondo{background-color:#444e57 !important}
+.u-color-grey-80,.Megamenu--default .Megamenu-subnavGroup>li>ul>li>ul>li>a,.Megamenu--default .Megamenu-subnavGroup>li>ul>li a,#menu-sinistro h4.dropdown,#briciole .breadcrumb .breadcrumb-item.active,label{color:#30373d !important}
+.u-background-grey-80,.Form-input.Form-input:focus+[role=tooltip],.Header-banner{background-color:#30373d !important}
+.u-color-grey-90{color:#1c2024 !important}
+.u-background-grey-90{background-color:#1c2024 !important}
+.u-color-teal-30{color:#00c5ca !important}
+.u-background-teal-30{background-color:#00c5ca !important}
+.u-color-teal-50{color:#65dcdf !important}
+.u-background-teal-50{background-color:#65dcdf !important}
+.u-color-teal-70{color:#004a4d !important}
+.u-background-teal-70{background-color:#004a4d !important}
+.u-color-5{color:#FFFFFF !important}
+.u-background-5,.Accordion--default .Accordion-header:hover,.Accordion--plus .Accordion-header:hover,.Linklist a:hover{background-color:#FFFFFF !important}
+.u-color-10,#footer,#footer .postFooter,#footer label,#footer caption,#footer .wp-calendar-table th,#footer .wp-block-calendar th,table#wp-calendar a,.wp-block-calendar a{color:#FFFFFF !important}
+#footer .footer-list .icon{fill:#FFFFFF}
+.u-background-10,.Linklist-link.Linklist-link--lev3{background-color:#FFFFFF !important}
+#footer h4,#footer .postFooter{border-color:#FFFFFF !important}
+.u-background-20,.Linklist-link.Linklist-link--lev2,.Linklist-link.Linklist-link--lev2:hover{background-color:#FFFFFF !important}
+.u-color-20{color:#FFFFFF !important}
+.u-color-30,.has-colore-primario-chiaro-color{color:#ECEBEB !important}
+.u-background-30,.has-colore-primario-chiaro-background-color{background-color:#ECEBEB !important}
+.u-color-40,.Header-owner{color:#D2CCC8 !important}
+.u-background-40,.Megamenu--default{background-color:#D2CCC8 !important}
+.u-color-50,.Accordion--default .Accordion-link,.Accordion--plus .Accordion-link,.ErrorPage-subtitle,.ErrorPage-title,.Header-language-other a,.Linklist-link,.Linklist a,.Share-revealIcon.is-open,.Skiplinks>li>a,.Header-socialIcons [class*=" Icon-"],.Header-socialIcons [class^=Icon-],.has-colore-primario-color,.tutte{color:#cab5a7 !important}
+.chip.chip-primary,.chip.chip-primary>.chip-label,.scheda-argomento-lista-testo a,.articolo-paragrafi a,#articolo-dettaglio-testo .scheda-allegato h4 a,#articolo-dettaglio-testo .scheda-ufficio-contatti h4 a,.card .card-body a h5.card-title{color:#cab5a7}
+.chip.chip-primary,.chip.chip-primary:hover{border-color:#cab5a7}
+.btn-primary,.btn-outline-primary{border-color:#cab5a7 !important}
+.btn-outline-primary{-webkit-box-shadow:inset 0 0 0 1px #cab5a7;box-shadow:inset 0 0 0 1px #cab5a7}
+.chip.chip-primary:hover{background-color:#cab5a7}
+.u-background-50,.Header-navbar,.Bullets>li:before,.Share-revealIcon,.Share>ul>li,.Header-searchTrigger button,.has-colore-primario-background-color,.flag-icon,.btn-primary{background-color:#cab5a7 !important}
+.tutte svg.icon,#articolo-dettaglio-testo .scheda-allegato svg.icon,.scheda-allegato svg.icon{fill:#cab5a7 !important}
+.u-color-60,.Header-banner{color:#C0A897 !important}
+.u-background-60{background-color:#C0A897 !important}
+.u-color-70{color:#B79A87 !important}
+.u-background-70,.push-body-toright .body_wrapper,.push-body-toright .body_wrapper .preheader{background-color:#B79A87 !important}
+.u-color-80,.Button--info{color:#AD8D77 !important}
+.u-background-80{background-color:#AD8D77 !important}
+input[type="date"],input[type="datetime-local"],input[type="email"],input[type="number"],input[type="password"],input[type="search"],input[type="tel"],input[type="text"],input[type="time"],input[type="url"],textarea{border-color:#AD8D77 !important}
+#mainheader .preheader .accedi{border-color:transparent}
+.u-color-90{color:#A47F67 !important}
+.dropdown-item{color:#A47F67}
+.u-background-90,.Linklist-link.Linklist-link--lev1,.Linklist-link.Linklist-link--lev1:hover,.btn-primary:hover{background-color:#A47F67 !important}
+.btn-primary:hover,.btn-outline-primary:hover{border-color:#A47F67 !important}
+.btn-outline-primary:hover{-webkit-box-shadow:inset 0 0 0 1px #A47F67;box-shadow:inset 0 0 0 1px #A47F67}
+.u-color-95,#intro .titolo-sezione h2,#intro-argomenti .titolo-sezione h2,#introricerca .titolo-sezione h2,#intro-sititematici .titolo-sezione h2,#briciole a,.Linklist-link.Linklist-link--lev2,.Linklist-link.Linklist-link--lev2:hover,.Linklist-link.Linklist-link--lev3,.Linklist a:hover,.Megamenu--default .Megamenu-subnavGroup>li>a,.Treeview--default li[aria-expanded=true] li a,.Treeview--default li[aria-expanded=true] li a:hover,.Treeview--default li[aria-expanded=true] li li a,.Treeview--default li[aria-expanded=true] li li a:hover,#wp-calendar a,.Footer-socialIcons [class*=Icon-],.Footer-socialIcons [class^=Icon-],.Button--default,.has-colore-primario-scuro-color,.scheda .scheda-testo h4 a,.scheda .scheda-testo h4 a:not([href]):not([tabindex]),.scheda .scheda-testo h4 a:not([href]):not([tabindex]):focus,.scheda .scheda-testo h4 a:not([href]):not([tabindex]):hover,.form-group input,.form-group optgroup,.form-group textarea{color:#97735B !important}
+.articolo-paragrafi a:hover,.novita-testo h2 a,.scheda .scheda-testo-small h4 a,.scheda .scheda-icona-small a,.cbp-spmenu .logotxt-burger a,.navmenu li a,.utilitymobile li a,.socialmobile .small,#mainheader .p_cercaMobile input[type=text],#menu-sinistro #lista-paragrafi .list-group-item,#menu-sinistro .lista-paragrafi .list-group-item,.dropdown-item:focus,.dropdown-item:hover,.navmenu>li.open ul li a,.navmenu>li.open ul li a:hover,.navmenu>li.open ul>li.open>a,.navmenu a,.navmenu li>a>span,.navmenu li>a:hover>span,.italiawp2-sidebar .cerca input,section .pagination .page-item .page-link,section .pagination .page-item .page-numbers,section .pagination .page-item .page-link,section .pagination .page-item .page-links{color:#97735B}
+#mainheader .p_cercaMobile input[type=text]::placeholder,.italiawp2-sidebar .cerca input::placeholder{color:#97735B;opacity:1}
+#mainheader .p_cercaMobile input[type=text]:-ms-input-placeholder,.italiawp2-sidebar .cerca input:-ms-input-placeholder{color:#97735B}
+#mainheader .p_cercaMobile input[type=text]::-ms-input-placeholder,.italiawp2-sidebar .cerca input::-ms-input-placeholder{color:#97735B}
+.italiawp2-sidebar .cerca input,#mainheader .p_cercaMobile input[type=text]{border-color:#97735B !important}
+.argomenti .badge-argomenti,.scheda-news .scheda-argomenti .badge-argomenti{color:#97735B;border-color:#97735B}
+.socialmobile a svg.icon,#mainheader .btn-cerca svg.icon,.articolo-paragrafi .icon-external-link,#menu-sinistro .icon,section .pagination .page-item .page-link svg.icon,section .pagination .page-item .page-numbers svg.icon{fill:#97735B}
+#mainheader .p_cercaMobile .btn-cerca svg.icon{fill:#97735B !important}
+.argomenti a.badge-argomenti:hover,.italiawp2-sidebar .btn-cerca,.italiawp2-sidebar .wp-block-search__button,.scheda-news .scheda-argomenti a.badge-argomenti:hover{background-color:#97735B}
+.u-background-95,.ScrollTop,.mfp-bg,mfp-img,.Footer .Form-input:not(.is-disabled),.Footer .Form-input:not(:disabled),.has-colore-primario-scuro-background-color{background-color:#97735B !important}
+.u-backround-none{background-color:transparent !important}
+.u-color-compl,.has-colore-complementare-color,#mainheader .social a:hover,#mainheader .preheader .accedi .btn-accedi:hover span,.socialmobile a:hover{color:#354A58 !important}
+#mainheader .preheader .accedi .btn-accedi:hover svg.icon,#mainheader .social a:hover svg.icon,.socialmobile a:hover svg.icon{fill:#354A58 !important}
+.u-background-compl,.has-colore-complementare-background-color,#mainheader .btn-cerca:hover,#sezione-notifica{background-color:#354A58 !important}
+.navmenu>li.open>a,.navmenu>li>a:hover,.navmenu>li>a:focus{border-color:#354A58 !important}
+.u-background-compl-5,.navmenu>li>a:hover,.navmenu>li>a:focus,.navmenu>li.open ul li a:hover,.navmenu>li.open ul>li.open>a,.dropdown-item:focus,.dropdown-item:hover{background-color:#F0F3F5 !important}
+.u-color-compl-5{color:#F0F3F5 !important}
+.u-color-compl-10,#footer .footer-list li a:hover,#footer .social a:hover,#footer .postFooter a:hover{color:#DEE7ED !important}
+.u-background-compl-10,.navmenu>li.open>a{background-color:#DEE7ED !important}
+#footer .social a:hover svg.icon{fill:#DEE7ED !important}
+.u-color-compl-80{color:#007ACC !important}
+.u-background-compl-80,.u-background-compl-80 a:not(.Button--info){background-color:#007ACC !important}
+.Footer a,.CookieBar a,.section-gallery a,.owl-prev,.owl-next,figure figcaption > p:first-of-type{color:#99D6FF !important}
+.Button--default{border-color:#99D6FF !important}
+#wp-calendar a,.Footer-socialIcons [class*=Icon-],.Footer-socialIcons [class^=Icon-],.Button--default{background-color:#99D6FF !important}</style><style>.u-color-black{color:#000 !important}
+.u-background-black{background-color:#000 !important}
+.u-color-white,.Bullets>li:before,.Footer,.Footer-blockTitle,.Footer-subTitle,.Form-input.Form-input:focus+[role=tooltip],.Linklist-link.Linklist-link--lev1,.Linklist-link.Linklist-link--lev1:hover,.Megamenu--default .Megamenu-item>a,.ScrollTop,.ScrollTop-icon,.Share-reveal>a>span,.Share-revealIcon,.Share>ul>li,.Share>ul>li>a,.Spid-button,.Footer-block li,.Footer-subBlock,#footer .wp-calendar-table,#footer .wp-block-calendar table tbody{color:#fff !important}
+.u-background-white,.Megamenu--default .Megamenu-subnav,.Skiplinks>li>a,.Spid-menu{background-color:#fff !important}
+.u-color-grey-10,.Footer-block address{color:#f5f5f0 !important}
+.u-background-grey-10,.Spid-idp:hover{background-color:#f5f5f0 !important}
+.u-color-grey-15{color:#f6f9fc !important}
+.u-background-grey-15{background-color:#f6f9fc !important}
+.u-color-grey-20{color:#eee !important}
+.u-background-grey-20,.Hero-content,.Share-reveal,.Share-revealIcon.is-open,.Treeview--default li[aria-expanded=true] li a,.Treeview--default li[aria-expanded=true] li a:hover,#menu-sinistro .menu-separatore{background-color:#eee !important}
+.u-color-grey-30,.Accordion--default .Accordion-header,.Accordion--plus .Accordion-header,.Linklist,.Linklist li,.Timeline{color:#ddd !important}
+.u-background-grey-30,.Treeview--default li[aria-expanded=true] li li a,.Treeview--default li[aria-expanded=true] li li a:hover{background-color:#ddd !important}
+.Accordion--default .Accordion-header,.Accordion--plus .Accordion-header,.Footer-block li,.Footer-links,.Footer-subBlock,.Leads-link,.Linklist li,.u-border-top-xxs{border-color:#ddd !important}
+.u-color-grey-40,.Megamenu--default .Megamenu-subnavGroup{color:#a5abb0 !important}
+.u-background-grey-40{background-color:#a5abb0 !important}
+.u-color-grey-50,.Megamenu--default .Megamenu-subnavGroup>li,.Share-revealText{color:#5a6772 !important}
+.u-background-grey-50{background-color:#5a6772 !important}
+.u-color-grey-60{color:#444e57 !important}
+.u-background-grey-60,#articolo-dettaglio-testo .galleriasfondo{background-color:#444e57 !important}
+.u-color-grey-80,.Megamenu--default .Megamenu-subnavGroup>li>ul>li>ul>li>a,.Megamenu--default .Megamenu-subnavGroup>li>ul>li a,#menu-sinistro h4.dropdown,#briciole .breadcrumb .breadcrumb-item.active,label{color:#30373d !important}
+.u-background-grey-80,.Form-input.Form-input:focus+[role=tooltip],.Header-banner{background-color:#30373d !important}
+.u-color-grey-90{color:#1c2024 !important}
+.u-background-grey-90{background-color:#1c2024 !important}
+.u-color-teal-30{color:#00c5ca !important}
+.u-background-teal-30{background-color:#00c5ca !important}
+.u-color-teal-50{color:#65dcdf !important}
+.u-background-teal-50{background-color:#65dcdf !important}
+.u-color-teal-70{color:#004a4d !important}
+.u-background-teal-70{background-color:#004a4d !important}
+.u-color-5{color:#FFFFFF !important}
+.u-background-5,.Accordion--default .Accordion-header:hover,.Accordion--plus .Accordion-header:hover,.Linklist a:hover{background-color:#FFFFFF !important}
+.u-color-10,#footer,#footer .postFooter,#footer label,#footer caption,#footer .wp-calendar-table th,#footer .wp-block-calendar th,table#wp-calendar a,.wp-block-calendar a{color:#FFFFFF !important}
+#footer .footer-list .icon{fill:#FFFFFF}
+.u-background-10,.Linklist-link.Linklist-link--lev3{background-color:#FFFFFF !important}
+#footer h4,#footer .postFooter{border-color:#FFFFFF !important}
+.u-background-20,.Linklist-link.Linklist-link--lev2,.Linklist-link.Linklist-link--lev2:hover{background-color:#FFFFFF !important}
+.u-color-20{color:#FFFFFF !important}
+.u-color-30,.has-colore-primario-chiaro-color{color:#ECEBEB !important}
+.u-background-30,.has-colore-primario-chiaro-background-color{background-color:#ECEBEB !important}
+.u-color-40,.Header-owner{color:#D2CCC8 !important}
+.u-background-40,.Megamenu--default{background-color:#D2CCC8 !important}
+.u-color-50,.Accordion--default .Accordion-link,.Accordion--plus .Accordion-link,.ErrorPage-subtitle,.ErrorPage-title,.Header-language-other a,.Linklist-link,.Linklist a,.Share-revealIcon.is-open,.Skiplinks>li>a,.Header-socialIcons [class*=" Icon-"],.Header-socialIcons [class^=Icon-],.has-colore-primario-color,.tutte{color:#cab5a7 !important}
+.chip.chip-primary,.chip.chip-primary>.chip-label,.scheda-argomento-lista-testo a,.articolo-paragrafi a,#articolo-dettaglio-testo .scheda-allegato h4 a,#articolo-dettaglio-testo .scheda-ufficio-contatti h4 a,.card .card-body a h5.card-title{color:#cab5a7}
+.chip.chip-primary,.chip.chip-primary:hover{border-color:#cab5a7}
+.btn-primary,.btn-outline-primary{border-color:#cab5a7 !important}
+.btn-outline-primary{-webkit-box-shadow:inset 0 0 0 1px #cab5a7;box-shadow:inset 0 0 0 1px #cab5a7}
+.chip.chip-primary:hover{background-color:#cab5a7}
+.u-background-50,.Header-navbar,.Bullets>li:before,.Share-revealIcon,.Share>ul>li,.Header-searchTrigger button,.has-colore-primario-background-color,.flag-icon,.btn-primary{background-color:#cab5a7 !important}
+.tutte svg.icon,#articolo-dettaglio-testo .scheda-allegato svg.icon,.scheda-allegato svg.icon{fill:#cab5a7 !important}
+.u-color-60,.Header-banner{color:#C0A897 !important}
+.u-background-60{background-color:#C0A897 !important}
+.u-color-70{color:#B79A87 !important}
+.u-background-70,.push-body-toright .body_wrapper,.push-body-toright .body_wrapper .preheader{background-color:#B79A87 !important}
+.u-color-80,.Button--info{color:#AD8D77 !important}
+.u-background-80{background-color:#AD8D77 !important}
+input[type="date"],input[type="datetime-local"],input[type="email"],input[type="number"],input[type="password"],input[type="search"],input[type="tel"],input[type="text"],input[type="time"],input[type="url"],textarea{border-color:#AD8D77 !important}
+#mainheader .preheader .accedi{border-color:transparent}
+.u-color-90{color:#A47F67 !important}
+.dropdown-item{color:#A47F67}
+.u-background-90,.Linklist-link.Linklist-link--lev1,.Linklist-link.Linklist-link--lev1:hover,.btn-primary:hover{background-color:#A47F67 !important}
+.btn-primary:hover,.btn-outline-primary:hover{border-color:#A47F67 !important}
+.btn-outline-primary:hover{-webkit-box-shadow:inset 0 0 0 1px #A47F67;box-shadow:inset 0 0 0 1px #A47F67}
+.u-color-95,#intro .titolo-sezione h2,#intro-argomenti .titolo-sezione h2,#introricerca .titolo-sezione h2,#intro-sititematici .titolo-sezione h2,#briciole a,.Linklist-link.Linklist-link--lev2,.Linklist-link.Linklist-link--lev2:hover,.Linklist-link.Linklist-link--lev3,.Linklist a:hover,.Megamenu--default .Megamenu-subnavGroup>li>a,.Treeview--default li[aria-expanded=true] li a,.Treeview--default li[aria-expanded=true] li a:hover,.Treeview--default li[aria-expanded=true] li li a,.Treeview--default li[aria-expanded=true] li li a:hover,#wp-calendar a,.Footer-socialIcons [class*=Icon-],.Footer-socialIcons [class^=Icon-],.Button--default,.has-colore-primario-scuro-color,.scheda .scheda-testo h4 a,.scheda .scheda-testo h4 a:not([href]):not([tabindex]),.scheda .scheda-testo h4 a:not([href]):not([tabindex]):focus,.scheda .scheda-testo h4 a:not([href]):not([tabindex]):hover,.form-group input,.form-group optgroup,.form-group textarea{color:#97735B !important}
+.articolo-paragrafi a:hover,.novita-testo h2 a,.scheda .scheda-testo-small h4 a,.scheda .scheda-icona-small a,.cbp-spmenu .logotxt-burger a,.navmenu li a,.utilitymobile li a,.socialmobile .small,#mainheader .p_cercaMobile input[type=text],#menu-sinistro #lista-paragrafi .list-group-item,#menu-sinistro .lista-paragrafi .list-group-item,.dropdown-item:focus,.dropdown-item:hover,.navmenu>li.open ul li a,.navmenu>li.open ul li a:hover,.navmenu>li.open ul>li.open>a,.navmenu a,.navmenu li>a>span,.navmenu li>a:hover>span,.italiawp2-sidebar .cerca input,section .pagination .page-item .page-link,section .pagination .page-item .page-numbers,section .pagination .page-item .page-link,section .pagination .page-item .page-links{color:#97735B}
+#mainheader .p_cercaMobile input[type=text]::placeholder,.italiawp2-sidebar .cerca input::placeholder{color:#97735B;opacity:1}
+#mainheader .p_cercaMobile input[type=text]:-ms-input-placeholder,.italiawp2-sidebar .cerca input:-ms-input-placeholder{color:#97735B}
+#mainheader .p_cercaMobile input[type=text]::-ms-input-placeholder,.italiawp2-sidebar .cerca input::-ms-input-placeholder{color:#97735B}
+.italiawp2-sidebar .cerca input,#mainheader .p_cercaMobile input[type=text]{border-color:#97735B !important}
+.argomenti .badge-argomenti,.scheda-news .scheda-argomenti .badge-argomenti{color:#97735B;border-color:#97735B}
+.socialmobile a svg.icon,#mainheader .btn-cerca svg.icon,.articolo-paragrafi .icon-external-link,#menu-sinistro .icon,section .pagination .page-item .page-link svg.icon,section .pagination .page-item .page-numbers svg.icon{fill:#97735B}
+#mainheader .p_cercaMobile .btn-cerca svg.icon{fill:#97735B !important}
+.argomenti a.badge-argomenti:hover,.italiawp2-sidebar .btn-cerca,.italiawp2-sidebar .wp-block-search__button,.scheda-news .scheda-argomenti a.badge-argomenti:hover{background-color:#97735B}
+.u-background-95,.ScrollTop,.mfp-bg,mfp-img,.Footer .Form-input:not(.is-disabled),.Footer .Form-input:not(:disabled),.has-colore-primario-scuro-background-color{background-color:#97735B !important}
+.u-backround-none{background-color:transparent !important}
+.u-color-compl,.has-colore-complementare-color,#mainheader .social a:hover,#mainheader .preheader .accedi .btn-accedi:hover span,.socialmobile a:hover{color:#354A58 !important}
+#mainheader .preheader .accedi .btn-accedi:hover svg.icon,#mainheader .social a:hover svg.icon,.socialmobile a:hover svg.icon{fill:#354A58 !important}
+.u-background-compl,.has-colore-complementare-background-color,#mainheader .btn-cerca:hover,#sezione-notifica{background-color:#354A58 !important}
+.navmenu>li.open>a,.navmenu>li>a:hover,.navmenu>li>a:focus{border-color:#354A58 !important}
+.u-background-compl-5,.navmenu>li>a:hover,.navmenu>li>a:focus,.navmenu>li.open ul li a:hover,.navmenu>li.open ul>li.open>a,.dropdown-item:focus,.dropdown-item:hover{background-color:#F0F3F5 !important}
+.u-color-compl-5{color:#F0F3F5 !important}
+.u-color-compl-10,#footer .footer-list li a:hover,#footer .social a:hover,#footer .postFooter a:hover{color:#DEE7ED !important}
+.u-background-compl-10,.navmenu>li.open>a{background-color:#DEE7ED !important}
+#footer .social a:hover svg.icon{fill:#DEE7ED !important}
+.u-color-compl-80{color:#007ACC !important}
+.u-background-compl-80,.u-background-compl-80 a:not(.Button--info){background-color:#007ACC !important}
+.Footer a,.CookieBar a,.section-gallery a,.owl-prev,.owl-next,figure figcaption > p:first-of-type{color:#99D6FF !important}
+.Button--default{border-color:#99D6FF !important}
+#wp-calendar a,.Footer-socialIcons [class*=Icon-],.Footer-socialIcons [class^=Icon-],.Button--default{background-color:#99D6FF !important}</style><style>.u-color-black{color:#000 !important}
+.u-background-black{background-color:#000 !important}
+.u-color-white,.Bullets>li:before,.Footer,.Footer-blockTitle,.Footer-subTitle,.Form-input.Form-input:focus+[role=tooltip],.Linklist-link.Linklist-link--lev1,.Linklist-link.Linklist-link--lev1:hover,.Megamenu--default .Megamenu-item>a,.ScrollTop,.ScrollTop-icon,.Share-reveal>a>span,.Share-revealIcon,.Share>ul>li,.Share>ul>li>a,.Spid-button,.Footer-block li,.Footer-subBlock,#footer .wp-calendar-table,#footer .wp-block-calendar table tbody{color:#fff !important}
+.u-background-white,.Megamenu--default .Megamenu-subnav,.Skiplinks>li>a,.Spid-menu{background-color:#fff !important}
+.u-color-grey-10,.Footer-block address{color:#f5f5f0 !important}
+.u-background-grey-10,.Spid-idp:hover{background-color:#f5f5f0 !important}
+.u-color-grey-15{color:#f6f9fc !important}
+.u-background-grey-15{background-color:#f6f9fc !important}
+.u-color-grey-20{color:#eee !important}
+.u-background-grey-20,.Hero-content,.Share-reveal,.Share-revealIcon.is-open,.Treeview--default li[aria-expanded=true] li a,.Treeview--default li[aria-expanded=true] li a:hover,#menu-sinistro .menu-separatore{background-color:#eee !important}
+.u-color-grey-30,.Accordion--default .Accordion-header,.Accordion--plus .Accordion-header,.Linklist,.Linklist li,.Timeline{color:#ddd !important}
+.u-background-grey-30,.Treeview--default li[aria-expanded=true] li li a,.Treeview--default li[aria-expanded=true] li li a:hover{background-color:#ddd !important}
+.Accordion--default .Accordion-header,.Accordion--plus .Accordion-header,.Footer-block li,.Footer-links,.Footer-subBlock,.Leads-link,.Linklist li,.u-border-top-xxs{border-color:#ddd !important}
+.u-color-grey-40,.Megamenu--default .Megamenu-subnavGroup{color:#a5abb0 !important}
+.u-background-grey-40{background-color:#a5abb0 !important}
+.u-color-grey-50,.Megamenu--default .Megamenu-subnavGroup>li,.Share-revealText{color:#5a6772 !important}
+.u-background-grey-50{background-color:#5a6772 !important}
+.u-color-grey-60{color:#444e57 !important}
+.u-background-grey-60,#articolo-dettaglio-testo .galleriasfondo{background-color:#444e57 !important}
+.u-color-grey-80,.Megamenu--default .Megamenu-subnavGroup>li>ul>li>ul>li>a,.Megamenu--default .Megamenu-subnavGroup>li>ul>li a,#menu-sinistro h4.dropdown,#briciole .breadcrumb .breadcrumb-item.active,label{color:#30373d !important}
+.u-background-grey-80,.Form-input.Form-input:focus+[role=tooltip],.Header-banner{background-color:#30373d !important}
+.u-color-grey-90{color:#1c2024 !important}
+.u-background-grey-90{background-color:#1c2024 !important}
+.u-color-teal-30{color:#00c5ca !important}
+.u-background-teal-30{background-color:#00c5ca !important}
+.u-color-teal-50{color:#65dcdf !important}
+.u-background-teal-50{background-color:#65dcdf !important}
+.u-color-teal-70{color:#004a4d !important}
+.u-background-teal-70{background-color:#004a4d !important}
+.u-color-5{color:#FFFFFF !important}
+.u-background-5,.Accordion--default .Accordion-header:hover,.Accordion--plus .Accordion-header:hover,.Linklist a:hover{background-color:#FFFFFF !important}
+.u-color-10,#footer,#footer .postFooter,#footer label,#footer caption,#footer .wp-calendar-table th,#footer .wp-block-calendar th,table#wp-calendar a,.wp-block-calendar a{color:#FFFFFF !important}
+#footer .footer-list .icon{fill:#FFFFFF}
+.u-background-10,.Linklist-link.Linklist-link--lev3{background-color:#FFFFFF !important}
+#footer h4,#footer .postFooter{border-color:#FFFFFF !important}
+.u-background-20,.Linklist-link.Linklist-link--lev2,.Linklist-link.Linklist-link--lev2:hover{background-color:#FFFFFF !important}
+.u-color-20{color:#FFFFFF !important}
+.u-color-30,.has-colore-primario-chiaro-color{color:#ECEBEB !important}
+.u-background-30,.has-colore-primario-chiaro-background-color{background-color:#ECEBEB !important}
+.u-color-40,.Header-owner{color:#D2CCC8 !important}
+.u-background-40,.Megamenu--default{background-color:#D2CCC8 !important}
+.u-color-50,.Accordion--default .Accordion-link,.Accordion--plus .Accordion-link,.ErrorPage-subtitle,.ErrorPage-title,.Header-language-other a,.Linklist-link,.Linklist a,.Share-revealIcon.is-open,.Skiplinks>li>a,.Header-socialIcons [class*=" Icon-"],.Header-socialIcons [class^=Icon-],.has-colore-primario-color,.tutte{color:#cab5a7 !important}
+.chip.chip-primary,.chip.chip-primary>.chip-label,.scheda-argomento-lista-testo a,.articolo-paragrafi a,#articolo-dettaglio-testo .scheda-allegato h4 a,#articolo-dettaglio-testo .scheda-ufficio-contatti h4 a,.card .card-body a h5.card-title{color:#cab5a7}
+.chip.chip-primary,.chip.chip-primary:hover{border-color:#cab5a7}
+.btn-primary,.btn-outline-primary{border-color:#cab5a7 !important}
+.btn-outline-primary{-webkit-box-shadow:inset 0 0 0 1px #cab5a7;box-shadow:inset 0 0 0 1px #cab5a7}
+.chip.chip-primary:hover{background-color:#cab5a7}
+.u-background-50,.Header-navbar,.Bullets>li:before,.Share-revealIcon,.Share>ul>li,.Header-searchTrigger button,.has-colore-primario-background-color,.flag-icon,.btn-primary{background-color:#cab5a7 !important}
+.tutte svg.icon,#articolo-dettaglio-testo .scheda-allegato svg.icon,.scheda-allegato svg.icon{fill:#cab5a7 !important}
+.u-color-60,.Header-banner{color:#C0A897 !important}
+.u-background-60{background-color:#C0A897 !important}
+.u-color-70{color:#B79A87 !important}
+.u-background-70,.push-body-toright .body_wrapper,.push-body-toright .body_wrapper .preheader{background-color:#B79A87 !important}
+.u-color-80,.Button--info{color:#AD8D77 !important}
+.u-background-80{background-color:#AD8D77 !important}
+input[type="date"],input[type="datetime-local"],input[type="email"],input[type="number"],input[type="password"],input[type="search"],input[type="tel"],input[type="text"],input[type="time"],input[type="url"],textarea{border-color:#AD8D77 !important}
+#mainheader .preheader .accedi{border-color:transparent}
+.u-color-90{color:#A47F67 !important}
+.dropdown-item{color:#A47F67}
+.u-background-90,.Linklist-link.Linklist-link--lev1,.Linklist-link.Linklist-link--lev1:hover,.btn-primary:hover{background-color:#A47F67 !important}
+.btn-primary:hover,.btn-outline-primary:hover{border-color:#A47F67 !important}
+.btn-outline-primary:hover{-webkit-box-shadow:inset 0 0 0 1px #A47F67;box-shadow:inset 0 0 0 1px #A47F67}
+.u-color-95,#intro .titolo-sezione h2,#intro-argomenti .titolo-sezione h2,#introricerca .titolo-sezione h2,#intro-sititematici .titolo-sezione h2,#briciole a,.Linklist-link.Linklist-link--lev2,.Linklist-link.Linklist-link--lev2:hover,.Linklist-link.Linklist-link--lev3,.Linklist a:hover,.Megamenu--default .Megamenu-subnavGroup>li>a,.Treeview--default li[aria-expanded=true] li a,.Treeview--default li[aria-expanded=true] li a:hover,.Treeview--default li[aria-expanded=true] li li a,.Treeview--default li[aria-expanded=true] li li a:hover,#wp-calendar a,.Footer-socialIcons [class*=Icon-],.Footer-socialIcons [class^=Icon-],.Button--default,.has-colore-primario-scuro-color,.scheda .scheda-testo h4 a,.scheda .scheda-testo h4 a:not([href]):not([tabindex]),.scheda .scheda-testo h4 a:not([href]):not([tabindex]):focus,.scheda .scheda-testo h4 a:not([href]):not([tabindex]):hover,.form-group input,.form-group optgroup,.form-group textarea{color:#97735B !important}
+.articolo-paragrafi a:hover,.novita-testo h2 a,.scheda .scheda-testo-small h4 a,.scheda .scheda-icona-small a,.cbp-spmenu .logotxt-burger a,.navmenu li a,.utilitymobile li a,.socialmobile .small,#mainheader .p_cercaMobile input[type=text],#menu-sinistro #lista-paragrafi .list-group-item,#menu-sinistro .lista-paragrafi .list-group-item,.dropdown-item:focus,.dropdown-item:hover,.navmenu>li.open ul li a,.navmenu>li.open ul li a:hover,.navmenu>li.open ul>li.open>a,.navmenu a,.navmenu li>a>span,.navmenu li>a:hover>span,.italiawp2-sidebar .cerca input,section .pagination .page-item .page-link,section .pagination .page-item .page-numbers,section .pagination .page-item .page-link,section .pagination .page-item .page-links{color:#97735B}
+#mainheader .p_cercaMobile input[type=text]::placeholder,.italiawp2-sidebar .cerca input::placeholder{color:#97735B;opacity:1}
+#mainheader .p_cercaMobile input[type=text]:-ms-input-placeholder,.italiawp2-sidebar .cerca input:-ms-input-placeholder{color:#97735B}
+#mainheader .p_cercaMobile input[type=text]::-ms-input-placeholder,.italiawp2-sidebar .cerca input::-ms-input-placeholder{color:#97735B}
+.italiawp2-sidebar .cerca input,#mainheader .p_cercaMobile input[type=text]{border-color:#97735B !important}
+.argomenti .badge-argomenti,.scheda-news .scheda-argomenti .badge-argomenti{color:#97735B;border-color:#97735B}
+.socialmobile a svg.icon,#mainheader .btn-cerca svg.icon,.articolo-paragrafi .icon-external-link,#menu-sinistro .icon,section .pagination .page-item .page-link svg.icon,section .pagination .page-item .page-numbers svg.icon{fill:#97735B}
+#mainheader .p_cercaMobile .btn-cerca svg.icon{fill:#97735B !important}
+.argomenti a.badge-argomenti:hover,.italiawp2-sidebar .btn-cerca,.italiawp2-sidebar .wp-block-search__button,.scheda-news .scheda-argomenti a.badge-argomenti:hover{background-color:#97735B}
+.u-background-95,.ScrollTop,.mfp-bg,mfp-img,.Footer .Form-input:not(.is-disabled),.Footer .Form-input:not(:disabled),.has-colore-primario-scuro-background-color{background-color:#97735B !important}
+.u-backround-none{background-color:transparent !important}
+.u-color-compl,.has-colore-complementare-color,#mainheader .social a:hover,#mainheader .preheader .accedi .btn-accedi:hover span,.socialmobile a:hover{color:#354A58 !important}
+#mainheader .preheader .accedi .btn-accedi:hover svg.icon,#mainheader .social a:hover svg.icon,.socialmobile a:hover svg.icon{fill:#354A58 !important}
+.u-background-compl,.has-colore-complementare-background-color,#mainheader .btn-cerca:hover,#sezione-notifica{background-color:#354A58 !important}
+.navmenu>li.open>a,.navmenu>li>a:hover,.navmenu>li>a:focus{border-color:#354A58 !important}
+.u-background-compl-5,.navmenu>li>a:hover,.navmenu>li>a:focus,.navmenu>li.open ul li a:hover,.navmenu>li.open ul>li.open>a,.dropdown-item:focus,.dropdown-item:hover{background-color:#F0F3F5 !important}
+.u-color-compl-5{color:#F0F3F5 !important}
+.u-color-compl-10,#footer .footer-list li a:hover,#footer .social a:hover,#footer .postFooter a:hover{color:#DEE7ED !important}
+.u-background-compl-10,.navmenu>li.open>a{background-color:#DEE7ED !important}
+#footer .social a:hover svg.icon{fill:#DEE7ED !important}
+.u-color-compl-80{color:#007ACC !important}
+.u-background-compl-80,.u-background-compl-80 a:not(.Button--info){background-color:#007ACC !important}
+.Footer a,.CookieBar a,.section-gallery a,.owl-prev,.owl-next,figure figcaption > p:first-of-type{color:#99D6FF !important}
+.Button--default{border-color:#99D6FF !important}
+#wp-calendar a,.Footer-socialIcons [class*=Icon-],.Footer-socialIcons [class^=Icon-],.Button--default{background-color:#99D6FF !important}</style><style>#mainheader,#mainheader .comune .logotxt h1 a,#mainheader .comune .logotxt h1 a:hover,#mainheader .cerca input,#mainheader .preheader .entesup a,.scheda-sito.u-background-50{color:#674E3E !important}
+#mainheader .social a svg.icon,#mainheader .preheader .accedi .btn-accedi svg.icon{fill:#674E3E !important}
+#mainheader .btn-cerca svg.icon{fill:#fff !important}
+#mainheader .btn-cerca{background:#674E3E !important}
+#mainheader .cerca input{border-color:#674E3E !important}
+@media (min-width:992px){.navbar .navbar-collapsable .navbar-nav li a.nav-link{color:#674E3E !important}}</style><style>#mainheader,#mainheader .comune .logotxt h1 a,#mainheader .comune .logotxt h1 a:hover,#mainheader .cerca input,#mainheader .preheader .entesup a,.scheda-sito.u-background-50{color:#674E3E !important}
+#mainheader .social a svg.icon,#mainheader .preheader .accedi .btn-accedi svg.icon{fill:#674E3E !important}
+#mainheader .btn-cerca svg.icon{fill:#fff !important}
+#mainheader .btn-cerca{background:#674E3E !important}
+#mainheader .cerca input{border-color:#674E3E !important}
+@media (min-width:992px){.navbar .navbar-collapsable .navbar-nav li a.nav-link{color:#674E3E !important}}</style></head>
+
+<body class="t-Pac">
+
+
+
+    
+<div class="cookiebar hide u-background-80" aria-hidden="true">
+    <p class="text-white">
+        Questo sito utilizza cookie tecnici, analytics e di terze parti.
+        Proseguendo nella navigazione accetti l’utilizzo dei cookie.<br />
+        <button data-accept="cookiebar" class="btn btn-info mr-2 btn-verde">
+            Accetto        </button>
+        <a href="https://bibliogabby.altervista.org/" class="btn btn-outline-info btn-trasp">Cookie policy</a>
+    </p>
+</div>
+
+    
+<div class="body_wrapper push_container clearfix" id="page_top">
+    <div class="skiplink sr-only">
+        <ul>
+            <li>
+                <a accesskey="2" href="#main_container">Vai ai contenuti</a>
+            </li>
+            <li>
+                <a accesskey="3" href="#menup">Vai al menu di navigazione</a>
+            </li>
+            <li><a accesskey="4" href="#footer">Vai al footer</a></li>
+        </ul>
+    </div>
+        
+    <header id="mainheader" class="u-background-50">
+    <!-- Inizio Fascia Appartenenza -->
+<section class="preheader u-background-70">
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-lg-12 col-md-12 col-sm-12 entesup">
+                
+            
+                <div class="float-right">
+                    
+                                        
+                    <!-- accedi -->
+                                        <!-- accedi -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Fine Fascia Appartenenza -->
+
+<!-- Button Menu -->
+<button class="navbar-toggle menu-btn pull-left menu-left push-body jPushMenuBtn">
+    <span class="sr-only">Attiva / disattiva la navigazione</span>
+    <span class="icon-bar icon-bar1"></span>
+    <span class="icon-bar icon-bar2"></span>
+    <span class="icon-bar icon-bar3"></span>
+</button>
+<!-- Fine Button Menu -->
+
+<!-- Inizio Menu Mobile -->
+<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="menup">
+    <div class="cbp-menu-wrapper clearfix">
+        <div class="logo-burger">
+            <div class="logotxt-burger">
+                <a href="https://bibliogabby.altervista.org/" title="OPAC GJD">OPAC GJD</a>
+            </div>
+        </div>
+
+        <h2 class="sr-only">Menu principale</h2>
+
+                    
+        <!-- pulsante ricerca mobile -->
+        <div class="p_cercaMobile">
+            <div class="cerca">
+<form class="Form" method="get" role="search" action="https://bibliogabby.altervista.org/">
+    <input type="text" value="" name="s" title="Cerca" placeholder="Cerca" required>
+    <button class="btn btn-default btn-cerca pull-right" name="submit" title="Cerca" aria-label="Cerca">
+        <svg class="icon">
+        <use xlink:href="https://bibliogabby.altervista.org/wp-content/themes/italiawp2/static/img/ponmetroca.svg#ca-search"></use>
+        </svg>
+    </button>
+</form>
+</div>
+        </div>
+        <!-- pulsante ricerca mobile -->
+
+        <ul class="list-inline socialmobile">
+                    </ul>
+    </div>
+</nav>
+<!-- Fine Menu Mobile -->
+
+<!-- Inizio Intestazione -->
+<div class="container header">
+    <div class="row clearfix header-tablet">
+        <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-7 comune">
+            <div class="logoprint">
+                <h1>
+                                        <img class="custom-logo" src="https://bibliogabby.altervista.org/wp-content/uploads/2024/12/cropped-cropped-Black_Beige_Circle_Y2K_Illustrative_Class_Logo-removebg-preview.png" alt="OPAC GJD"/>
+                    OPAC GJD                </h1>
+            </div>
+            <div class="logoimg">
+                <a href="https://bibliogabby.altervista.org/" title="OPAC GJD">
+                                        <img class="custom-logo" alt="OPAC GJD" src="https://bibliogabby.altervista.org/wp-content/uploads/2024/12/cropped-cropped-Black_Beige_Circle_Y2K_Illustrative_Class_Logo-removebg-preview.png">
+                </a>
+            </div>
+            <div class="logotxt">
+                <h1>
+                    <a href="https://bibliogabby.altervista.org/" title="OPAC GJD">
+                                                                                                    OPAC GJD                                                                        </a>
+                </h1>
+            </div>
+        </div>
+
+        <div class="header-social col-xl-3 col-lg-3 d-none d-lg-block d-md-none pull-right text-right">
+            <!-- Inizio Social-->
+                        <!-- Fine Social-->
+        </div>
+
+        <div class="header-cerca col-xl-2 col-lg-2 col-md-4 col-sm-5 col-5 d-none d-lg-block d-md-none text-right">
+            <!-- Inizio Ricerca -->
+            <div class="cerca">
+<form class="Form" method="get" role="search" action="https://bibliogabby.altervista.org/">
+    <input type="text" value="" name="s" title="Cerca" placeholder="Cerca" required>
+    <button class="btn btn-default btn-cerca pull-right" name="submit" title="Cerca" aria-label="Cerca">
+        <svg class="icon">
+        <use xlink:href="https://bibliogabby.altervista.org/wp-content/themes/italiawp2/static/img/ponmetroca.svg#ca-search"></use>
+        </svg>
+    </button>
+</form>
+</div>
+            <!-- Fine Ricerca -->
+        </div>
+    </div>
+</div>
+<!-- Fine Intestazione -->
+
+<section class="hidden-xs" id="sub_nav">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+            
+                <nav class="navbar navbar-expand-sm has-megamenu">
+                    <div class="navbar-collapsable">
+                        <div class="close-div sr-only">
+                            <button class="btn close-menu" type="button">
+                                <svg class="icon icon-sm icon-light">
+                                <use xlink:href="https://bibliogabby.altervista.org/wp-content/themes/italiawp2/static/svg/sprite.svg#it-close"></use>
+                                </svg>chiusi                            </button>
+                        </div>
+
+                        <div class="menu-wrapper">
+                                                </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+</section>
+    </header>
+
+    <main id="main_container">
+        
+    
+
+<style>
+    #hero .hero-foto {
+        background-image: url('https://bibliogabby.altervista.org/wp-content/uploads/2024/12/cropped-Slide_Biblio_06-min.jpg') !important;
+    }
+</style>
+
+<section id="hero">
+    <div class="widget">
+        <div class="hero-foto"></div>
+    </div>
+</section>
+<section id="home-contenuto" class="section">
+    <div class="container">
+        <div class="widget">
+            <div class="row">
+                <div class="col-md-12">
+                    <form role="search" method="get" action="https://bibliogabby.altervista.org/" class="wp-block-search__button-outside wp-block-search__text-button wp-block-search"    ><label class="wp-block-search__label" for="wp-block-search__input-1" >Cerca</label><div class="wp-block-search__inside-wrapper " ><input class="wp-block-search__input" id="wp-block-search__input-1" placeholder="" value="" type="search" name="s" required /><button aria-label="Cerca" class="wp-block-search__button wp-element-button" type="submit" >Cerca</button></div></form>                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    </main>
+    
+    <footer id="footer" class="u-background-80">
+        <div class="container">
+            <section>
+                <div class="row clearfix">
+                    <div class="col-sm-12 intestazione">
+                        <div class="logoimg">
+                            <a href="https://bibliogabby.altervista.org/" title="OPAC GJD">
+                                                                <img class="custom-logo" alt="OPAC GJD" src="https://bibliogabby.altervista.org/wp-content/uploads/2024/12/cropped-cropped-Black_Beige_Circle_Y2K_Illustrative_Class_Logo-removebg-preview.png">
+                            </a>
+                        </div>
+                        <div class="logotxt">
+                            <h3>
+                                <a href="https://bibliogabby.altervista.org/" title="OPAC GJD">
+                                    OPAC GJD                                </a>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="row">
+                                    </div>
+            </section>
+            <section>
+                <div class="row">
+                    
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <h4>Recapiti</h4>
+                        <ul class="footer-list clearfix">
+                            <li>
+                                <svg class="icon"><use xlink:href="https://bibliogabby.altervista.org/wp-content/themes/italiawp2/static/svg/sprite.svg#it-pa"></use></svg>
+                                Indirizzo                                <br>
+                                <span><br>
+                                , </span>
+                            </li>
+                            <li>
+                                <svg class="icon"><use xlink:href="https://bibliogabby.altervista.org/wp-content/themes/italiawp2/static/svg/sprite.svg#it-telephone"></use></svg>
+                                Telefono<br>
+                                <a href="tel:+39" title="Telefono">
+                                    (+39)                                 </a>
+                            </li>
+                                                    </ul>
+                    </div>
+                    
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <h4>Informazioni</h4>
+                        <ul class="footer-list clearfix">
+                            <li>
+                                <svg class="icon"><use xlink:href="https://bibliogabby.altervista.org/wp-content/themes/italiawp2/static/svg/sprite.svg#it-check-circle"></use></svg>
+                                C.F. / P.IVA<br>
+                                <span></span>
+                            </li>
+                                                                                </ul>
+                    </div>
+                    
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <h4>Posta Elettronica</h4>
+                        <ul class="footer-list clearfix">
+                            <li>
+                                <svg class="icon"><use xlink:href="https://bibliogabby.altervista.org/wp-content/themes/italiawp2/static/svg/sprite.svg#it-mail"></use></svg>
+                                PEC<br>
+                                <a href="mailto:" title="Posta Elettronica Certificata">
+                                                                    </a>
+                            </li>
+                                                                                </ul>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <h4>Seguici su</h4>
+                        
+                                        </div>
+                </div>
+            </section>
+
+            <section class="postFooter clearfix">
+                <h3 class="sr-only">Sezione Link Utili</h3>
+                
+                                                                                                Realizzato con <a target="_blank" href="https://it.wordpress.org">WordPress</a> |
+                
+                <!-- Per favore, non rimuoverlo! -->
+                                Tema grafico <a target="_blank" href="http://bit.ly/ItaliaWP">ItaliaWP2</a> |
+                Basato sul <a target="_blank" href="https://italia.github.io/design-comuni-prototipi/">Prototipo per siti PA di AgID</a>
+                <!-- Grazie :) -->
+
+                <br>
+                
+            </section>
+        </div>
+    </footer>
+    
+</div>
+
+<div id="topcontrol" class="topcontrol u-background-80" title="Torna su">
+  <svg class="icon">
+    <use xlink:href="https://bibliogabby.altervista.org/wp-content/themes/italiawp2/static/img/bootstrap-italia.svg#it-collapse"></use>
+  </svg>
+</div>
+
+<script>window.__PUBLIC_PATH__ = 'https://bibliogabby.altervista.org/wp-content/themes/italiawp2/static/fonts';</script>
+<noscript class="av-unwrap-on-idle"><link rel="stylesheet" href="https://bibliogabby.altervista.org/_av_share/master/static/wordpress/dist/css/affiliation-banner.min.css?1731403040"><link rel="stylesheet" href="https://bibliogabby.altervista.org/_av_share/master/static/wordpress/dist/css/legacy/legacy-widgets.min.css?1703259218"></noscript><script>document.addEventListener("DOMContentLoaded",function(){var u=function(c){document.querySelectorAll("noscript."+c).forEach(function(e){e.outerHTML=e.textContent})};u("av-unwrap-on-dcl"),self.requestIdleCallback?requestIdleCallback(u.bind(null,"av-unwrap-on-idle"),{timeout:3000}):u("av-unwrap-on-idle")})</script><script id="av-script-data-common" type="application/json">{"accountId":"bibliogabby","platform":"altervista","isSponsored":false,"is404":false}</script><script id="av-script-data-affiliation-banner" type="application/json">{"refreshPriceEndpoint":"https:\/\/d50c3qvj5bugz.cloudfront.net\/affiliation\/api\/db\/lookup\/"}</script><script id="av-script-data-tracking" type="application/json">{"postType":null,"course":null,"device":"computer","theme":"desktop: italiawp2","branch":"master","autopilotSettings":"manual","advGroup":"AllSilver","advTag":null,"wpVersion":"6.7.1","phpVersion":"8.0.30","specialSponsorship":null}</script><script id="av-script-data-permutive" type="application/json">{"platform":"bibliogabby-web-desktop","site_name":"bibliogabby","page":{"type":"Home"},"publisher":"Mondadori","classifications_watson":{"categories":"$alchemy_taxonomy","keywords":"$alchemy_keywords"}}</script><script id="av-script-data-recipeServings" type="application/json">{"isDisabled":null,"isRecipe":false,"ingredientAlternativeQuantities":[{"label":"","value":"","floatValue":0},{"label":"Qualche","value":"Qualche","floatValue":0},{"label":"1\/2","value":"1\/2","floatValue":0.5},{"label":"Mezzo","value":"Mezzo","floatValue":0.5},{"label":"Mezza","value":"Mezza","floatValue":0.5},{"label":"Met\u00e0","value":"Met\u00e0","floatValue":0.5},{"label":"1\/3","value":"1\/3","floatValue":0.3333333333333333},{"label":"un terzo","value":"un terzo","floatValue":0.3333333333333333},{"label":"un terzo di","value":"un terzo di","floatValue":0.3333333333333333},{"label":"2\/3","value":"2\/3","floatValue":0.6666666666666666},{"label":"due terzi","value":"due terzi","floatValue":0.6666666666666666},{"label":"due terzi di","value":"due terzi di","floatValue":0.6666666666666666},{"label":"1\/4","value":"1\/4","floatValue":0.25},{"label":"un quarto","value":"un quarto","floatValue":0.25},{"label":"un quarto di","value":"un quarto di","floatValue":0.25},{"label":"3\/4","value":"3\/4","floatValue":0.75},{"label":"tre quarti","value":"tre quarti","floatValue":0.75},{"label":"tre quarti di","value":"tre quarti di","floatValue":0.75},{"label":"1\/8","value":"1\/8","floatValue":0.125},{"label":"un ottavo","value":"un ottavo","floatValue":0.125},{"label":"un ottavo di","value":"un ottavo di","floatValue":0.125},{"label":"3\/8","value":"3\/8","floatValue":0.375},{"label":"tre ottavi","value":"tre ottavi","floatValue":0.375},{"label":"tre ottavi di","value":"tre ottavi di","floatValue":0.375},{"label":"5\/8","value":"5\/8","floatValue":0.625},{"label":"cinque ottavi","value":"cinque ottavi","floatValue":0.625},{"label":"cinque ottavi di","value":"cinque ottavi di","floatValue":0.625},{"label":"7\/8","value":"7\/8","floatValue":0.875},{"label":"sette ottavi","value":"sette ottavi","floatValue":0.875},{"label":"sette ottavi di","value":"sette ottavi di","floatValue":0.875}],"ingredientUnits":{"":{"singular":"Nessuna","plural":"Nessuna"},"q.s.":{"singular":"q.b.","plural":"q.b."},"g":{"singular":"g","plural":"g"},"ml":{"singular":"ml","plural":"ml"},"cl":{"singular":"cl","plural":"cl"},"kg":{"singular":"kg","plural":"kg"},"l":{"singular":"l","plural":"l"},"clove":{"singular":"spicchio","plural":"spicchi"},"pinch":{"singular":"pizzico","plural":"pizzichi"},"spoon":{"singular":"cucchiaio","plural":"cucchiai"},"tablespoon":{"singular":"cucchiaio da tavola","plural":"cucchiai da tavola"},"teaspoon":{"singular":"cucchiaino","plural":"cucchiaini"},"sachet":{"singular":"bustina","plural":"bustine"},"sprig":{"singular":"rametto","plural":"rametti"},"glass":{"singular":"bicchiere","plural":"bicchieri"},"shot":{"singular":"bicchierino","plural":"bicchierini"},"leaf":{"singular":"foglia","plural":"foglie"},"tuft":{"singular":"ciuffo","plural":"ciuffi"},"bouquet":{"singular":"mazzetto","plural":"mazzetti"},"drop":{"singular":"goccia","plural":"gocce"},"cup":{"singular":"tazza","plural":"tazze"},"tea cup":{"singular":"tazza da t\u00e8","plural":"tazze da t\u00e8"},"coffee cup":{"singular":"tazza da caff\u00e8","plural":"tazze da caff\u00e8"},"rib":{"singular":"costa","plural":"coste"},"berry":{"singular":"bacca","plural":"bacche"},"slice":{"singular":"fetta","plural":"fette"},"ladle":{"singular":"mestolo","plural":"mestoli"},"some":{"singular":"qualche","plural":"qualche"},"jar":{"singular":"vasetto","plural":"vasetti"},"wire":{"singular":"filo","plural":"fili"},"sheet":{"singular":"foglio","plural":"fogli"},"roll":{"singular":"rotolo","plural":"rotoli"},"fillet":{"singular":"filetto","plural":"filetti"},"cluster":{"singular":"grappolo","plural":"grappoli"},"wisp":{"singular":"cespo","plural":"cespi"},"package":{"singular":"confezione","plural":"confezioni"},"stem":{"singular":"gambo","plural":"gambi"},"vial":{"singular":"fiala","plural":"fiale"},"cube":{"singular":"cubetto","plural":"cubetti"},"pound":{"singular":"libbra","plural":"libbre"},"lb":{"singular":"lb","plural":"lbs"},"ounce":{"singular":"oncia","plural":"once"},"stick":{"singular":"panetto","plural":"panetti"},"pod":{"singular":"bastoncino","plural":"bastoncini"},"oz":{"singular":"oz","plural":"oz"},"bundle":{"singular":"fascio","plural":"fasci"},"knob":{"singular":"noce","plural":"noci"},"chunk":{"singular":"trancio","plural":"tranci"},"bar":{"singular":"tavoletta","plural":"tavolette"},"peppercorn":{"singular":"grano","plural":"grani"},"square":{"singular":"quadratino","plural":"quadratini"},"coffee_pod":{"singular":"cialda","plural":"cialde"},"coffee_capsule":{"singular":"capsula","plural":"capsule"},"spray":{"singular":"spruzzo","plural":"spruzzi"},"head":{"singular":"testa","plural":"teste"},"grind":{"singular":"macinata","plural":"macinate"}}}</script><script type="text/javascript" src="https://bibliogabby.altervista.org/wp-content/themes/italiawp2/static/js/popper.min.js" id="popper-js"></script>
+<script type="text/javascript" src="https://bibliogabby.altervista.org/wp-content/themes/italiawp2/static/js/jquery-ui.js" id="jquery-ui-js"></script>
+<script type="text/javascript" src="https://bibliogabby.altervista.org/wp-content/themes/italiawp2/static/js/i18n/datepicker-it.js" id="italiawp2-datepicker-it-js"></script>
+<script type="text/javascript" src="https://bibliogabby.altervista.org/wp-content/themes/italiawp2/static/js/owl.carousel.min.js" id="italiawp2-owl.carousel-js"></script>
+<script type="text/javascript" src="https://bibliogabby.altervista.org/wp-content/themes/italiawp2/inc/magnific-popup/jquery.magnific-popup.min.js" id="italiawp2-jquery.magnific-popup-js"></script>
+<script type="text/javascript" src="https://bibliogabby.altervista.org/wp-content/themes/italiawp2/static/js/bootstrap-italia.min.js" id="italiawp2-bootstrap-italia-js"></script>
+<script type="text/javascript" src="https://bibliogabby.altervista.org/wp-content/themes/italiawp2/inc/scripts.js" id="italiawp2-scripts-js"></script>
+<script type="text/javascript" id="italiawp2-tema-js-extra">
+/* <![CDATA[ */
+var itwp2 = {"siteurl":"https:\/\/bibliogabby.altervista.org\/wp-content\/themes\/italiawp2"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://bibliogabby.altervista.org/wp-content/themes/italiawp2/static/js/tema.js" id="italiawp2-tema-js"></script>
+<p class="av-credit-link" style="position:relative;font-size:12px;clear:both;text-align:center;padding:8px !important;margin:0 !important;"><a rel="nofollow" href="https://it.altervista.org/" title="Crea un sito gratis e guadagna">Apri un sito e guadagna con Altervista</a> - <a rel="nofollow" href="https://it.altervista.org/disclaimer.php">Disclaimer</a> - <a rel="nofollow" href="https://it.altervista.org/contatti.php#abuse">Segnala abuso</a></p>
+</body>
+</html>
